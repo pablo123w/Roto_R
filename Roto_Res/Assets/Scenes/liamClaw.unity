@@ -1817,4 +1817,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   harpoon: {fileID: 4786899255373690218, guid: 691a672420af9a34baa0aa79d36dcf93, type: 3}
-  gunPivot: {fileID: 0}
+  gunPivot: {fileID: 8760293770014547995}
