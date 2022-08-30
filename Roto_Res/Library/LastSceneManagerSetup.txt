@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Level_Designer_Test.unity
-=======
-- path: Assets/Scenes/liamClaw.unity
->>>>>>> Pablo_Verge
   isLoaded: 1
   isActive: 1
   isSubScene: 0
