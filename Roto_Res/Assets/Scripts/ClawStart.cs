@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class ClawStart : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public PlayerMain ply;
+    private void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Goober"))
+        {
+           
+            ply.Score += 1;
+           other.transform.parent = gameObject.transform;
+            //Destroy(other.gameObject);
+        }
+
     }
 }
