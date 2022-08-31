@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Programmer_Test.unity
+=======
+- path: Assets/Scenes/3D_Models_Test.unity
+>>>>>>> Jonathan_Mills
   isLoaded: 1
   isActive: 1
   isSubScene: 0
