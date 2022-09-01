@@ -5,10 +5,7 @@ using UnityEngine;
 public class ClawStart : MonoBehaviour
 {
     public PlayerMain ply;
-    private void Update()
-    {
-        
-    }
+    public Transform hook_point;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,7 +13,7 @@ public class ClawStart : MonoBehaviour
         {
            
             ply.Score += 1;
-           other.transform.parent = gameObject.transform;
+           other.transform.parent = hook_point.transform;
             //Destroy(other.gameObject);
         }
 
