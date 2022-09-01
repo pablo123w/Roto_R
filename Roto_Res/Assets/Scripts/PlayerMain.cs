@@ -3,26 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
+using System;
 
 public class PlayerMain : MonoBehaviour
 {
     public int Score;
-    public Text score_text;
+    public TMP_Text score_text;
     private int Health = 100;
-    public Text health_text;
+    public TMP_Text health_text;
 
     // Start is called before the first frame update
     void Start()
     {
         Score = 0;
-      //  UpdateScoreText();
+        UpdateScoreText();
     }
 
     // Update is called once per frame
     void Update()
     {
         Respawn();
-        //UpdateScoreText();
+        UpdateScoreText();
     }
     public void UpdateScoreText()
     {
@@ -49,6 +51,11 @@ public class PlayerMain : MonoBehaviour
         //    Health -= 5;
         //    UpdateHealthText();
         //}
+        if (other.CompareTag("test_Score"))
+        {
+            Score += 1;
+            UpdateScoreText();
+        }
     }
     private void Respawn()
     {
