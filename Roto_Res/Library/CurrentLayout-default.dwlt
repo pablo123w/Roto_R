@@ -15,11 +15,19 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 43.2
     width: 1536
     height: 780.8
   m_ShowMode: 4
   m_Title: Hierarchy
+=======
+    y: 43
+    width: 1920
+    height: 989
+  m_ShowMode: 4
+  m_Title: Game
+>>>>>>> Liam_OHare
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,6 +51,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1536
 <<<<<<< HEAD
     height: 722.8
@@ -57,6 +66,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 126
 >>>>>>> Jonathan_Mills
+=======
+    width: 1920
+    height: 939
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 127
+>>>>>>> Liam_OHare
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,8 +89,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1172.8
+    x: 1466
     y: 0
+<<<<<<< HEAD
     width: 363.19995
 <<<<<<< HEAD
     height: 722.8
@@ -82,6 +100,12 @@ MonoBehaviour:
 >>>>>>> Jonathan_Mills
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 454
+    height: 939
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Liam_OHare
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -104,12 +128,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 424
 <<<<<<< HEAD
     height: 451.2
 =======
     height: 366.4
 >>>>>>> Jonathan_Mills
+=======
+    width: 530
+    height: 586
+>>>>>>> Liam_OHare
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -133,12 +162,21 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 366.4
     width: 1172.8
     height: 364.4
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
+=======
+    y: 586
+    width: 1466
+    height: 353
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
+>>>>>>> Liam_OHare
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
@@ -164,8 +202,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1536
     height: 780.8
+=======
+    width: 1920
+    height: 989
+>>>>>>> Liam_OHare
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -189,7 +232,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -213,8 +256,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 760.8
     width: 1536
+=======
+    y: 969
+    width: 1920
+>>>>>>> Liam_OHare
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -237,6 +285,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1172.8
     height: 730.8
   m_MinSize: {x: 403, y: 342}
@@ -247,6 +296,14 @@ MonoBehaviour:
 =======
   controlID: 85
 >>>>>>> Jonathan_Mills
+=======
+    width: 1466
+    height: 939
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 18
+>>>>>>> Liam_OHare
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,6 +323,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1172.8
     height: 366.4
   m_MinSize: {x: 403, y: 221}
@@ -276,6 +334,14 @@ MonoBehaviour:
 =======
   controlID: 40
 >>>>>>> Jonathan_Mills
+=======
+    width: 1466
+    height: 586
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 19
+>>>>>>> Liam_OHare
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,10 +357,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 424
+    x: 530
     y: 0
+<<<<<<< HEAD
     width: 748.80005
     height: 366.4
+=======
+    width: 936
+    height: 586
+>>>>>>> Liam_OHare
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -525,14 +596,20 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 440
     width: 1171.8
     height: 343.4
+=======
+    y: 659
+    width: 1465
+    height: 332
+>>>>>>> Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -548,15 +625,20 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes
 =======
     - Assets/Prefabs
 >>>>>>> Jonathan_Mills
+=======
+    - Assets/Materials
+>>>>>>> Liam_OHare
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - Assets/Scenes
 =======
@@ -564,10 +646,16 @@ MonoBehaviour:
 >>>>>>> Jonathan_Mills
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jonmi\OneDrive\Documents\GitHub\Roto_R\Roto_Res
+=======
+  - Assets/Materials
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res
+>>>>>>> Liam_OHare
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: 224d0000
     m_LastClickedID: 19746
@@ -577,6 +665,11 @@ MonoBehaviour:
     m_LastClickedID: 20360
     m_ExpandedIDs: 000000007c4f000000ca9a3b
 >>>>>>> Jonathan_Mills
+=======
+    m_SelectedIDs: de4b0000
+    m_LastClickedID: 19422
+    m_ExpandedIDs: 00000000d84b000000ca9a3b
+>>>>>>> Liam_OHare
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -605,10 +698,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000000e4d0000
 =======
     m_ExpandedIDs: 000000007c4f0000
 >>>>>>> Jonathan_Mills
+=======
+    m_ExpandedIDs: 00000000d84b0000
+>>>>>>> Liam_OHare
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -680,14 +777,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1172.8
     y: 73.6
     width: 362.19995
     height: 709.8
+=======
+    x: 1466
+    y: 73
+    width: 453
+    height: 918
+>>>>>>> Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -717,18 +821,25 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 73.6
     width: 423
     height: 345.4
+=======
+    y: 73
+    width: 529
+    height: 565
+>>>>>>> Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -738,6 +849,11 @@ MonoBehaviour:
       m_LastClickedID: 20762
       m_ExpandedIDs: 80f5ffff82f5ffffbaf6fffff2f8ffffe04f0000
 >>>>>>> Jonathan_Mills
+=======
+      m_SelectedIDs: 0a4b0000
+      m_LastClickedID: 19210
+      m_ExpandedIDs: 66fbffff68fbffff0a4b0000164b00001c4b0000364b0000464b0000564b0000
+>>>>>>> Liam_OHare
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -777,14 +893,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 424
     y: 73.6
     width: 746.80005
     height: 345.4
+=======
+    x: 530
+    y: 73
+    width: 934
+    height: 565
+>>>>>>> Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -798,6 +921,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.031892, y: 4.4410415, z: -0.7141432}
     speed: 2
     m_Value: {x: 0.031892, y: 4.4410415, z: -0.7141432}
@@ -806,6 +930,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.44500017, y: 6.0003023, z: -0.35706097}
 >>>>>>> Jonathan_Mills
+=======
+    m_Target: {x: 0.21318696, y: 1.1863604, z: -1.7182125}
+    speed: 2
+    m_Value: {x: 0.21318696, y: 1.1863604, z: -1.7182125}
+>>>>>>> Liam_OHare
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -847,11 +976,12 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 0.15843473, y: -0.69147587, z: 0.15958129, w: 0.6865274}
     speed: 2
@@ -869,6 +999,15 @@ MonoBehaviour:
     speed: 2
     m_Value: 2.551537
 >>>>>>> Jonathan_Mills
+=======
+    m_Target: {x: -0.054131135, y: -0.07304156, z: 0.004026483, w: -0.99579054}
+    speed: 2
+    m_Value: {x: -0.054134376, y: -0.07304593, z: 0.004026724, w: -0.9958502}
+  m_Size:
+    m_Target: 1.5213219
+    speed: 2
+    m_Value: 1.5213219
+>>>>>>> Liam_OHare
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -886,7 +1025,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: 0.0041888473, y: 0.004777275, z: 0.000070889495, w: -0.99991983}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -909,14 +1048,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 424
     y: 73.6
     width: 746.80005
     height: 345.4
+=======
+    x: 530
+    y: 73
+    width: 934
+    height: 565
+>>>>>>> Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -924,7 +1070,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 746.80005, y: 324.4}
+=======
+  m_TargetSize: {x: 934, y: 544}
+>>>>>>> Liam_OHare
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -939,10 +1089,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -298.72003
     m_HBaseRangeMax: 298.72003
     m_VBaseRangeMin: -129.76
     m_VBaseRangeMax: 129.76
+=======
+    m_HBaseRangeMin: -467
+    m_HBaseRangeMax: 467
+    m_VBaseRangeMin: -272
+    m_VBaseRangeMax: 272
+>>>>>>> Liam_OHare
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -960,6 +1117,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 746.80005
 <<<<<<< HEAD
       height: 409.2
@@ -970,12 +1128,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 373.40002, y: 162.2}
 >>>>>>> Jonathan_Mills
+=======
+      width: 934
+      height: 544
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 467, y: 272}
+>>>>>>> Liam_OHare
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -351.96533
       y: -192.85513
@@ -990,6 +1155,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 933.50006, y: 431.75}
+=======
+      x: -467
+      y: -272
+      width: 934
+      height: 544
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 934, y: 565}
+>>>>>>> Liam_OHare
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1011,7 +1185,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
