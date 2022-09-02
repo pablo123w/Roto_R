@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Goober
   - Floor
+  - test_Score
   layers:
   - Default
   - TransparentFX
