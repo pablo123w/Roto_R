@@ -348,6 +348,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ply: {fileID: 8760293771559563389}
+  hook_point: {fileID: 0}
+  Rope: {fileID: 0}
 --- !u!65 &151244448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1862,6 +1864,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: fbb23fb9-1075-428e-ace7-91cc73f70f42
     m_ActionName: Player/Fire[/XInputControllerWindows/rightTrigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d412ba41-71d5-4d70-a1dc-bd3bd752d5ca
+    m_ActionName: Player/LetGO[/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1975,7 +1981,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 48
+  m_Constraints: 56
   m_CollisionDetection: 0
 --- !u!114 &8760293771559563657
 MonoBehaviour:
