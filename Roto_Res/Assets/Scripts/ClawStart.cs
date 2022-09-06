@@ -7,19 +7,22 @@ using UnityEngine.InputSystem;
 public class ClawStart : MonoBehaviour
 {
     public PlayerMain ply;
-    public Transform hook_point;
-    public Transform Rope;
+    public GameObject hook_point;
+    public GameObject Rope;
     private GameObject goob;
-    
+    Rigidbody Rrgbd;
+
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Goober"))
         {
+           
             ply.Score += 1;
            other.transform.parent = hook_point.transform;
-            
-
+            Rrgbd = Rope.GetComponent<Rigidbody>();
+            //Rrgbd.freezeRotation = true;
+            Rrgbd.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY;
 
             //Destroy(other.gameObject);
         }
@@ -39,5 +42,6 @@ public class ClawStart : MonoBehaviour
        goob.transform.SetParent(null, true);
         rg.useGravity = true;
         rg.isKinematic = false;
+        Rrgbd.constraints = RigidbodyConstraints.None;
     }
 }

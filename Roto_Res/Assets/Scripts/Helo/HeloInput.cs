@@ -117,7 +117,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""right"",
+                    ""name"": ""left"",
                     ""id"": ""0e86a6ef-12da-4a8b-bd84-53f790412793"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
@@ -128,7 +128,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""left"",
+                    ""name"": ""right"",
                     ""id"": ""2ab19acd-35c2-424e-84bb-3d7e671fdc1a"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
