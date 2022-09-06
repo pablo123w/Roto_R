@@ -53,6 +53,15 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""LetGO"",
+                    ""type"": ""Value"",
+                    ""id"": ""d412ba41-71d5-4d70-a1dc-bd3bd752d5ca"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -231,6 +240,17 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""action"": ""Fire"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1b744ce8-437a-4300-90eb-edaf1ce9909f"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LetGO"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -242,6 +262,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Aim = m_Player.FindAction("Aim", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
+        m_Player_LetGO = m_Player.FindAction("LetGO", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -304,6 +325,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Aim;
     private readonly InputAction m_Player_Fire;
+    private readonly InputAction m_Player_LetGO;
     public struct PlayerActions
     {
         private @HeloInput m_Wrapper;
@@ -311,6 +333,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Aim => m_Wrapper.m_Player_Aim;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
+        public InputAction @LetGO => m_Wrapper.m_Player_LetGO;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -329,6 +352,9 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @Fire.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
                 @Fire.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
                 @Fire.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
+                @LetGO.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLetGO;
+                @LetGO.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLetGO;
+                @LetGO.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLetGO;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -342,6 +368,9 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @Fire.started += instance.OnFire;
                 @Fire.performed += instance.OnFire;
                 @Fire.canceled += instance.OnFire;
+                @LetGO.started += instance.OnLetGO;
+                @LetGO.performed += instance.OnLetGO;
+                @LetGO.canceled += instance.OnLetGO;
             }
         }
     }
@@ -351,5 +380,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnAim(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
+        void OnLetGO(InputAction.CallbackContext context);
     }
 }
