@@ -18,12 +18,7 @@ public class ClawStart : MonoBehaviour
         {
             ply.Score += 1;
            other.transform.parent = hook_point.transform;
-            if (other.gameObject.GetComponent<Rigidbody>() != null )
-            {
-                gameObject.AddComponent<HingeJoint>();
-                gameObject.GetComponent<HingeJoint>().connectedBody = other.gameObject.GetComponent<Rigidbody>();
-              
-            }
+            
 
 
             //Destroy(other.gameObject);
@@ -43,5 +38,6 @@ public class ClawStart : MonoBehaviour
        // transform.SetParent(, true);
        goob.transform.SetParent(null, true);
         rg.useGravity = true;
+        rg.isKinematic = false;
     }
 }

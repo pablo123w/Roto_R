@@ -9,8 +9,8 @@ public class HeloMovement : MonoBehaviour
 
     private float lHorizontal;
 	private float lVertical;
-	public float maxSpeed = 10f;
-	public float speed = 1f;
+	public float maxSpeed = 8f;
+	public float speed = 2f;
 
 	//autostabilize after rotating off center
 	public float stability = 0.3f;
