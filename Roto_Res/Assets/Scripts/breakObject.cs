@@ -7,6 +7,7 @@ using UnityEngine;
  */
 
 public class breakObject : MonoBehaviour
+
 {
     // Spawns destroyed prefab
     public Transform destroyedObject;
@@ -18,27 +19,35 @@ public class breakObject : MonoBehaviour
     public float explosionPower;
     // The force that sends the broken pieces flying up
     public float upwardsExplosion;
+    bool isBroke = false;
 
     // When object hits the prefab hard enough destroys the object.
     private void OnCollisionEnter(Collision collision)
     {
         // Anything that hits the prefab with greater force than the strength of the object is destroyed.
-        if (collision.relativeVelocity.magnitude > objectStrength)
-        {
-            Destroy(gameObject);
-            Debug.Log("spawn broken guy");
-            Instantiate(destroyedObject, transform.position, transform.rotation);
-            //destroyedObject.localScale = transform.localScale;
-            //Vector3 explosionPos = transform.position;
-            //Collider[] colliders = Physics.OverlapSphere (explosionPos, objectExplosionRadius);
+        while(isBroke == false)
+		{
+            if (collision.relativeVelocity.magnitude > objectStrength)
+            {
+                Destroy(gameObject);
+                Break();
+                //destroyedObject.localScale = transform.localScale;
+                //Vector3 explosionPos = transform.position;
+                //Collider[] colliders = Physics.OverlapSphere (explosionPos, objectExplosionRadius);
 
-            //foreach (Collider hit in colliders)
-            //{
-            //    if (hit.attachedRigidbody)
-            //    {
-            //        hit.attachedRigidbody.AddExplosionForce(explosionPower * collision.relativeVelocity.magnitude, explosionPos, objectExplosionRadius, upwardsExplosion);
-            //    }
-            //}
+                //foreach (Collider hit in colliders)
+                //{
+                //    if (hit.attachedRigidbody)
+                //    {
+                //        hit.attachedRigidbody.AddExplosionForce(explosionPower * collision.relativeVelocity.magnitude, explosionPos, objectExplosionRadius, upwardsExplosion);
+                //    }
+                //}
+            }
         }
+    }
+    private void Break()
+	{
+        Instantiate(destroyedObject, transform.position, transform.rotation);
+        isBroke = true;
     }
 }

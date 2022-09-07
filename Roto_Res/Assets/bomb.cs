@@ -22,6 +22,10 @@ public class bomb : MonoBehaviour
 
 		foreach(Collider nearby in colliders)
 		{
+			//if(colliders.gameObject.tag == "Destructible")
+			//{
+
+			//}
 			Rigidbody rb = nearby.GetComponent<Rigidbody>();
 			if(rb != null)
 			{
