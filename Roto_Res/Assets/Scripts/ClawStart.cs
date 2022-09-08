@@ -36,13 +36,21 @@ public class ClawStart : MonoBehaviour
 
     public void LetGoOfGoober(InputAction.CallbackContext contex)
     {
-        goob = GameObject.FindWithTag("Goober");
-        Rigidbody rg;
-        rg = goob.GetComponent<Rigidbody>();
-       // transform.SetParent(, true);
-       goob.transform.SetParent(null, true);
-        rg.useGravity = true;
-        rg.isKinematic = false;
-        Rrgbd.constraints = RigidbodyConstraints.None;
+        if (contex.performed)
+        {
+            if (goob.transform.IsChildOf(hook_point.transform))
+            {
+            goob = GameObject.FindWithTag("Goober");
+            Rigidbody rg;
+            rg = goob.GetComponent<Rigidbody>();
+            // transform.SetParent(, true);
+            goob.transform.SetParent(null, true);
+            rg.useGravity = true;
+            rg.isKinematic = false;
+            Rrgbd.constraints = RigidbodyConstraints.None;
+            }
+        }
+        
+       
     }
 }

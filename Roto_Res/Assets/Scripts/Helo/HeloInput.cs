@@ -89,6 +89,15 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""shrink"",
+                    ""type"": ""Button"",
+                    ""id"": ""3f48314f-7f6c-4d6c-b167-6e54e2f0b24a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -344,6 +353,17 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""action"": ""length"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2cacb54c-d95c-40ac-93d6-5766c1c46764"",
+                    ""path"": ""<Keyboard>/x"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""shrink"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -359,6 +379,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         m_Player_WeaponSwitch = m_Player.FindAction("WeaponSwitch", throwIfNotFound: true);
         m_Player_WaterGun_Shoot = m_Player.FindAction("WaterGun_Shoot", throwIfNotFound: true);
         m_Player_length = m_Player.FindAction("length", throwIfNotFound: true);
+        m_Player_shrink = m_Player.FindAction("shrink", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -425,6 +446,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_WeaponSwitch;
     private readonly InputAction m_Player_WaterGun_Shoot;
     private readonly InputAction m_Player_length;
+    private readonly InputAction m_Player_shrink;
     public struct PlayerActions
     {
         private @HeloInput m_Wrapper;
@@ -436,6 +458,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         public InputAction @WeaponSwitch => m_Wrapper.m_Player_WeaponSwitch;
         public InputAction @WaterGun_Shoot => m_Wrapper.m_Player_WaterGun_Shoot;
         public InputAction @length => m_Wrapper.m_Player_length;
+        public InputAction @shrink => m_Wrapper.m_Player_shrink;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -466,6 +489,9 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @length.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLength;
                 @length.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLength;
                 @length.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLength;
+                @shrink.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShrink;
+                @shrink.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShrink;
+                @shrink.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShrink;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -491,6 +517,9 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @length.started += instance.OnLength;
                 @length.performed += instance.OnLength;
                 @length.canceled += instance.OnLength;
+                @shrink.started += instance.OnShrink;
+                @shrink.performed += instance.OnShrink;
+                @shrink.canceled += instance.OnShrink;
             }
         }
     }
@@ -504,5 +533,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         void OnWeaponSwitch(InputAction.CallbackContext context);
         void OnWaterGun_Shoot(InputAction.CallbackContext context);
         void OnLength(InputAction.CallbackContext context);
+        void OnShrink(InputAction.CallbackContext context);
     }
 }

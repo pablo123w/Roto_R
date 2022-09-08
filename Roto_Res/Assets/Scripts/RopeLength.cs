@@ -5,10 +5,11 @@ using UnityEngine.InputSystem;
 
 public class RopeLength : MonoBehaviour
 {
+    public Rigidbody rg;
     // Start is called before the first frame update
     void Start()
     {
-        
+        rg = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -18,14 +19,16 @@ public class RopeLength : MonoBehaviour
     }
     public void ChangeLength(InputAction.CallbackContext context)
     {
-        transform.localScale += new Vector3(0.05f, 0.05f, 0.05f);
+        rg.transform.localScale += new Vector3(0.05f, 0.05f, 0.05f);
+       // transform.localPosition += new Vector3(0, -.05f, 0);
     }
-    public void MinusLength()
+    public void MinusLength(InputAction.CallbackContext context)
     {
-        if (Input.GetKeyDown("x"))
-        {
-            transform.localScale += new Vector3(-.05f, -.05f, -.05f);
-        }
+       
+        
+            rg.transform.localScale += new Vector3(0f, -.05f, 0f);
+           // transform.localPosition += new Vector3(0, .05f, 0);
+        
        
     }
 }
