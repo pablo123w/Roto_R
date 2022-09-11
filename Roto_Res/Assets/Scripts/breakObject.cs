@@ -27,7 +27,7 @@ public class breakObject : MonoBehaviour
         {
             Destroy(gameObject);
             Instantiate(destroyedObject, transform.position, transform.rotation);
-            destroyedObject.localScale = transform.localScale;
+          //  destroyedObject.localScale = transform.localScale;
             Vector3 explosionPos = transform.position;
             Collider[] colliders = Physics.OverlapSphere (explosionPos, objectExplosionRadius);
 

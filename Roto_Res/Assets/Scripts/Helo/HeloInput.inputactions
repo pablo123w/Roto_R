@@ -58,6 +58,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "length",
+                    "type": "Button",
+                    "id": "546428a5-3d0e-4651-abc2-6e4c9e25acd8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -95,7 +104,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "right",
+                    "name": "left",
                     "id": "0e86a6ef-12da-4a8b-bd84-53f790412793",
                     "path": "<Keyboard>/a",
                     "interactions": "",
@@ -106,7 +115,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "left",
+                    "name": "right",
                     "id": "2ab19acd-35c2-424e-84bb-3d7e671fdc1a",
                     "path": "<Keyboard>/d",
                     "interactions": "",
@@ -300,6 +309,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "WaterGun_Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1057fa06-6a0f-4dfc-bd71-eb2e6e8eda56",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "length",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
