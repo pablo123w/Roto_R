@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 815776445238946794}
   - component: {fileID: 815776445238946795}
   - component: {fileID: 815776445238946792}
-  - component: {fileID: 8617809680766451345}
   - component: {fileID: -177476568043946831}
+  - component: {fileID: 518459436298716717}
   m_Layer: 0
   m_Name: water
   m_TagString: Untagged
@@ -97,19 +97,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8617809680766451345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815776445238946793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72fb3c6d62c5b3640b5eca641be94520, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effect: {fileID: 3420816081717037060, guid: 96fea444f5c21374ead3db2c179e3b51, type: 3}
 --- !u!54 &-177476568043946831
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -126,3 +113,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &518459436298716717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815776445238946793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd341c17e9300d4286f1fdfd387dcbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

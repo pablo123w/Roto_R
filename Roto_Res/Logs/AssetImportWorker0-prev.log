@@ -15,11 +15,11 @@ C:/Users/porky/Documents/GitHub/Roto_R/Roto_Res
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56995
+52863
 Successfully changed project path to: C:/Users/porky/Documents/GitHub/Roto_R/Roto_Res
 C:/Users/porky/Documents/GitHub/Roto_R/Roto_Res
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -35,145 +35,145 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001662 seconds.
+Registered in 0.001640 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.568 seconds
+- Completed reload, in  0.566 seconds
 Domain Reload Profiling:
-	ReloadAssembly (569ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (566ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (444ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (181ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (55ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003600 seconds.
+Registered in 0.004229 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000028269633410 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002790E49C2C0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E7AC430 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-0000027908A9AD30 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D0FCFA0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000002790EFDA450 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D0FCFA0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002790D021230 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D60BB30 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002790EFEFA60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D60BB30 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002790EFEFA60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1125B0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002790CE28030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CCE6020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002790DCD0020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1125B0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002790DCFF830 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028269633410 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000002790CEADC20 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D411020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000002790DC62430 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E515A50 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000002790E2D8300 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E3EB220 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002790D029240 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826DF62010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000002790E150020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CD87840 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002790DC76E40 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CE67C50 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000002790E6B9FB0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1B7820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002790E215420 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1B7820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002790CB1A010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1B7820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002790CB1A010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CF52020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000002790DEBC010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CD87840 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002790DC76E40 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1B7820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000002790E215420 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E7AC430 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-0000027908A9AD30 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CE67C50 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000002790E6B9FB0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1B7820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002790CB1A010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E3EB220 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002790CE28030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D86E060 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-00000279093B3850 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1DFE30 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000002790E215420 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
+- Completed reload, in  1.260 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1423ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (1261ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1164ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1064ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (401ms)
+			SetupTypeCache (301ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (481ms)
+			RebuildScriptCaches (145ms)
+			SetupLoadedEditorAssemblies (419ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.0 MB.
+System memory in use before: 140.1 MB.
 System memory in use after: 140.1 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3626.
-Total: 3.501900 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.213100 ms MarkObjects: 2.911100 ms  DeleteObjects: 0.128800 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3627.
+Total: 3.077300 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.163600 ms MarkObjects: 2.542400 ms  DeleteObjects: 0.129900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -187,102 +187,332 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/ClawStart.cs
-  artifactKey: Guid(e8f70d24932281a4e91fc9c5daf32633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClawStart.cs using Guid(e8f70d24932281a4e91fc9c5daf32633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90af163d8277b0c37bd24ece1d3c279e') in 0.027038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 126.343100 seconds.
-  path: Assets/Scripts/ClawStart.cs
-  artifactKey: Guid(e8f70d24932281a4e91fc9c5daf32633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClawStart.cs using Guid(e8f70d24932281a4e91fc9c5daf32633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c60168854b84bed1d9de7a43bb39c0') in 0.002394 seconds 
+  path: Assets/Scripts/WeaponsSwitch.cs
+  artifactKey: Guid(f3840cc33e0dd0e4ca555f98217fd84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeaponsSwitch.cs using Guid(f3840cc33e0dd0e4ca555f98217fd84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024280f31c61281f34acfdca5a46608a') in 0.048096 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003431 seconds.
+Registered in 0.004186 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002826E389840 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002790C84AC00 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282740C1450 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-0000027913C01FC0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826C903700 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-0000027908FECD30 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D83A020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002791230A030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826EA27030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000027914105900 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D83A020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002791230A030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D83A020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002791230A030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CEE2F90 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002790FDD2420 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826FD34030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000279115F7020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CE68070 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000002790E70C030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028272747030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000002790DD7A060 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827565E070 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-00000279151BF6E0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826EA27030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002790DBBA490 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826F7BE020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-0000027911679030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028269547030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000027911D63010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282744477A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-00000279140CDF60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826F78A010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002790E4842A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CA3DE00 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002790DF2C030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E2D6010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002790CCB8010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CF52020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-0000027911A8E020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028269547030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000027911D63010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826F78A010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000002790CFB5430 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282740C1450 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-0000027913C01FC0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028274446060 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000279140CEEE0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1B7820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002790DF2C030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827275BA40 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002790EA57030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282759F92C0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000002790EFB4020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826F78A010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000002790DF54640 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (815ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 133.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3630.
+Total: 3.043200 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.185500 ms MarkObjects: 2.466100 ms  DeleteObjects: 0.100900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.823776 seconds.
+  path: Assets/Scripts/WeaponsSwitch.cs
+  artifactKey: Guid(f3840cc33e0dd0e4ca555f98217fd84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeaponsSwitch.cs using Guid(f3840cc33e0dd0e4ca555f98217fd84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e11f4b3882a06b448e80d49566ab05') in 0.005920 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004880 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002790C84AC00 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F597AB0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790FC28020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CD6C3F0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027914105900 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790D1E5A70 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002791230A030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F07A010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F6C2020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279091FB9D0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F3D7F70 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279374E7510 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C979060 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911679030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E74BDC0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E6B9DC0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F3D7F70 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CF96020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CCB8010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911A8E020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C69F7A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F9FC010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F597AB0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E6B9DC0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790DF2C030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E1BA620 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279092D4840 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F3D7F70 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.028 seconds
+- Completed reload, in  1.139 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1028ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1139ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (846ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (968ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (436ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (312ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (301ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (211ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3633.
+Total: 2.984200 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.190200 ms MarkObjects: 2.427100 ms  DeleteObjects: 0.108300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.645554 seconds.
+  path: Assets/Scripts/WeaponsSwitch.cs
+  artifactKey: Guid(f3840cc33e0dd0e4ca555f98217fd84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeaponsSwitch.cs using Guid(f3840cc33e0dd0e4ca555f98217fd84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b108cbfb889abcf36a9802b74e20b9') in 0.006042 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003354 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000027912315640 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027938B66880 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F997F60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027938500010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E741F90 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E741F90 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E741F90 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908EAB010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911701030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279377DF020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F3D7F70 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279392C4DE0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E74A9A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790D0F3020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F0A9820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279140CF2C0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F9FC010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002791609DC50 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CCB8010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911A8E020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C69F7A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790DD52040 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027938B648A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279140CF2C0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E35BDB0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790EA57030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279377E5B10 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F9FC010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (805ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (203ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -292,11 +522,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 132.9 MB.
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3629.
-Total: 3.007200 ms (FindLiveObjects: 0.230700 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.497000 ms  DeleteObjects: 0.107700 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3636.
+Total: 3.001800 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.176900 ms MarkObjects: 2.477100 ms  DeleteObjects: 0.107000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -311,91 +541,315 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003332 seconds.
+Registered in 0.003520 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002826E389840 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000279377DF020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282775CC880 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000002790CFCDEF0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826C903700 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000002790F997F60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271480010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002790C984B00 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271692010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000027915582460 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827596D010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000027915582460 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827596D010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000027915582460 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D0F1990 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002793784D010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826FD34030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000027911701030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826F79FA20 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000278E02DDCA0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028269723010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000002790FA56040 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028277D506B0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000002793ABD0050 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271692010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000027938500010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826F7BE020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-0000027908DE5CD0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CED9F70 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002790F0A9820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CE67A60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-00000279113A9800 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271EAE010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002790F9FC010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CA3DE00 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002790D04B440 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E2D6010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002790CCB8010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CF52020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-0000027911A8E020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CED9F70 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002790C69F7A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271EAE010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000002790FDF4020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282775CC880 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000002790CFCD770 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CE67A60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000279113A9800 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D1B7820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002791563BED0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827596D010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002791230A030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271BC6040 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000002790E74CDA0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271EAE010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000002790F9FC010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
+- Completed reload, in  0.945 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (945ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (850ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (789ms)
 			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (329ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (223ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3639.
+Total: 3.441000 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.165600 ms MarkObjects: 2.900500 ms  DeleteObjects: 0.141900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003505 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000279377DF020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793C3DE040 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793850FD20 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911789010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790E741F90 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027938500010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027938500010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027937901020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790DEFE020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027937872620 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790FA56040 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793C81F310 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C5E7FD0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790D0F3020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F0A9820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279377E5500 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F9FC010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790D04B440 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CCB8010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911A8E020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C69F7A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790D3C9020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793C3DDC80 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279377E5500 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027912543600 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002791609DC50 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793CBA9B60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F9FC010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (204ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3642.
+Total: 3.191400 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.172200 ms MarkObjects: 2.670700 ms  DeleteObjects: 0.116400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003373 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000279377DF020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793DBB67C0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F997F60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790FDF4020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002791249C010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279116CB020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793E781010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027937901020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911701030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F0A9820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F5FA020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793E6328B0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002791249C010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908DE5CD0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F0A9820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793E797EF0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F748020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790D04B440 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CCB8010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911A8E020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C69F7A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F748020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793DBB6220 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793E797730 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CCB8010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279116CB020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790FA13A60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F748020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -404,235 +858,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.9 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3632.
-Total: 3.278700 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.198600 ms MarkObjects: 2.702400 ms  DeleteObjects: 0.124200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003563 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002826E389840 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282775CC4C0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282729A6610 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D7EB020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CD2BFF0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271FCC6A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271FCC6A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D0F1990 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826FD34030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282200AA6D0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271EAE010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827968B220 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CD2BFF0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CAC1CC0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826FB30030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282744477A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282694B5020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D527020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E2D6010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CF52020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826FB30030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028275D4A010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282775CC4C0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282744477A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282719B2FA0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D7EB020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D6FD440 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028269723010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.295 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1296ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1135ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (432ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (459ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (334ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.9 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3635.
-Total: 3.990000 ms (FindLiveObjects: 0.341600 ms CreateObjectMapping: 0.297500 ms MarkObjects: 3.168000 ms  DeleteObjects: 0.181400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004251 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002826E389840 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827AF60F50 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826C903700 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826F711FA0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E91CE90 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028268B3E050 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028268B3E050 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028275BCC040 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271296700 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CED9F70 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826F78A010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827B5366F0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028278928CC0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E5A7020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028277F5D570 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282718EFC40 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028269167020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D527020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E2D6010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CF52020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028277F5D570 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028272967010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827AF5F330 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282718EFC40 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826C969EF0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826F711FA0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827B5E55E0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CA847B0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.164 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1164ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (992ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (440ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (318ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 133.0 MB.
-System memory in use after: 133.0 MB.
+System memory in use after: 133.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3638.
-Total: 3.305500 ms (FindLiveObjects: 0.233500 ms CreateObjectMapping: 0.206800 ms MarkObjects: 2.753200 ms  DeleteObjects: 0.111300 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3645.
+Total: 5.130500 ms (FindLiveObjects: 0.432600 ms CreateObjectMapping: 0.340900 ms MarkObjects: 4.217300 ms  DeleteObjects: 0.138800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -647,104 +877,222 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003232 seconds.
+Registered in 0.003484 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002826E389840 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000279377DF020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271B348C0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000002793FC7EF00 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826C903700 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000002790F997F60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826C8E2820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002790DEFE020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CD2BFF0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002791249C010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826FBCA020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002790C5DE1A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028277FAB020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000027938500010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271BB6030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000027937901020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826FD34030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000027911701030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827D399E50 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000002790F0A9820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028269167020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000002790F5FA020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002827D24CBC0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000002793FE607E0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CD2BFF0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002791249C010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CAC1CC0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000002790D0F3020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271857020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002790F0A9820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CB43100 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000002793E797EF0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000282714BA3E0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002793CCB5010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826D527020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002790D04B440 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826E2D6010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002790DCD0020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CF52020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-0000027911A8E020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271857020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002790C69F7A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028270173020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000002793CCB5010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271B36120 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000002793FC7C980 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CB434E0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000002793E797B10 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028271E6C420 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002790CCB8010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826FBCA020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002790C5DE1A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028277F60FA0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000027911D66A40 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002826CA847B0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000002793CCB5010 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
+- Completed reload, in  0.955 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1007ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (955ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (846ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.0 MB.
-System memory in use after: 133.1 MB.
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3641.
-Total: 3.196900 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.163000 ms MarkObjects: 2.657800 ms  DeleteObjects: 0.141900 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3648.
+Total: 3.253400 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.183100 ms MarkObjects: 2.703700 ms  DeleteObjects: 0.120000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1052.051929 seconds.
+  path: Assets/Scripts/ToolBase_Guns.cs
+  artifactKey: Guid(d788c8e99eb00e34cb85388111cbcde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ToolBase_Guns.cs using Guid(d788c8e99eb00e34cb85388111cbcde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360cfffca20cede2730fe571bcffef0a') in 0.013086 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003458 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002793E84C890 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793FC7C200 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F997F60 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790DEFE020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790FD70110 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279113FDD80 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279113FDD80 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027937901020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911701030 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F0A9820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F3D7F70 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027941D2B7E0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279110C8040 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908DE5CD0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790F0A9820 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027942085830 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002794209B210 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790D04B440 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002791236C020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027911A8E020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C69F7A0 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002794209B210 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002793FC7B300 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027942085640 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790DCD0020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279113FDD80 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027942140020 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002794209B210 doesn't match image C:\Users\porky\Documents\GitHub\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3652.
+Total: 3.611200 ms (FindLiveObjects: 0.346600 ms CreateObjectMapping: 0.198800 ms MarkObjects: 2.888600 ms  DeleteObjects: 0.176200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
