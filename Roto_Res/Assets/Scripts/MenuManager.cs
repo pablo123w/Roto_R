@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     public static bool GameIsPaused = false;
+    public GameObject mainMenuUI;
     public GameObject pauseMenuUI;
+    public GameObject levelSelectUI;
+    public int level;
 
     // Update is called once per frame
     void Update()
@@ -48,5 +51,42 @@ public class MenuManager : MonoBehaviour
     {
         Debug.Log("Quitting Game!");
         Application.Quit();
+    }
+
+    public void LevelSelectScreen()
+    {
+        if (level == 0)
+        {
+            Debug.Log("Level Select Screen from Start Menu");
+            mainMenuUI.SetActive(false);
+            levelSelectUI.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("Level Select from a level");
+            SceneManager.LoadScene(0);
+            mainMenuUI.SetActive(false);
+            levelSelectUI.SetActive(true);
+        }
+    }
+
+    public void MainMenuScreen()
+    {
+        if (level == 0)
+        {
+            Debug.Log("BACK TO MAIN MENU SCREEN!");
+            levelSelectUI.SetActive(false);
+            mainMenuUI.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("Back to Main Menu from level");
+            SceneManager.LoadScene(0);
+        }
+    }
+
+    public void LevelSelect()
+    {
+        SceneManager.LoadScene(level);
     }
 }

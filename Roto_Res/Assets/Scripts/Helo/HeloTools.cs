@@ -26,7 +26,6 @@ public class HeloTools : MonoBehaviour
         if (context.performed)
         {
             targetPosition = context.ReadValue<Vector2>();
-            Debug.Log(targetPosition);
             if (targetPosition.y < 0)
                 gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, targetPosition);
             else if (targetPosition.y > 0 && targetPosition.x < 0)
