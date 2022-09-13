@@ -26,18 +26,19 @@ public class breakObject : MonoBehaviour
         if (collision.relativeVelocity.magnitude > objectStrength)
         {
             Destroy(gameObject);
+            Debug.Log("spawn broken guy");
             Instantiate(destroyedObject, transform.position, transform.rotation);
-          //  destroyedObject.localScale = transform.localScale;
-            Vector3 explosionPos = transform.position;
-            Collider[] colliders = Physics.OverlapSphere (explosionPos, objectExplosionRadius);
+            //destroyedObject.localScale = transform.localScale;
+            //Vector3 explosionPos = transform.position;
+            //Collider[] colliders = Physics.OverlapSphere (explosionPos, objectExplosionRadius);
 
-            foreach (Collider hit in colliders)
-            {
-                if (hit.attachedRigidbody)
-                {
-                    hit.attachedRigidbody.AddExplosionForce(explosionPower * collision.relativeVelocity.magnitude, explosionPos, objectExplosionRadius, upwardsExplosion);
-                }
-            }
+            //foreach (Collider hit in colliders)
+            //{
+            //    if (hit.attachedRigidbody)
+            //    {
+            //        hit.attachedRigidbody.AddExplosionForce(explosionPower * collision.relativeVelocity.magnitude, explosionPos, objectExplosionRadius, upwardsExplosion);
+            //    }
+            //}
         }
     }
 }

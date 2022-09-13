@@ -5,11 +5,15 @@ using UnityEngine;
 public class bomb : MonoBehaviour
 {
     public float expForce, radius;
+	public float objectStrength;
 
 	private void OnCollisionEnter(Collision other)
 	{
-		knockback();
-		Destroy(gameObject);
+		if (other.relativeVelocity.magnitude > objectStrength)
+		{
+			knockback();
+			Destroy(gameObject);
+		}
 	}
 
 	void knockback()
