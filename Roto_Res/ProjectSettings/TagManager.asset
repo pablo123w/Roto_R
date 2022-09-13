@@ -7,7 +7,11 @@ TagManager:
   - Goober
   - Floor
   - test_Score
+<<<<<<< HEAD
   - Destructible
+=======
+  - break_wall
+>>>>>>> 34a9ab947d6475b8136e88074b13dbed56ffbb0b
   layers:
   - Default
   - TransparentFX

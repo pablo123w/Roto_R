@@ -10,7 +10,7 @@ public class PlayerMain : MonoBehaviour
 {
     public int Score;
     public TMP_Text score_text;
-    private int Health = 100;
+    public int Health = 100;
     public TMP_Text health_text;
 
     // Start is called before the first frame update
