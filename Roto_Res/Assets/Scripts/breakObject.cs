@@ -25,11 +25,8 @@ public class breakObject : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // Anything that hits the prefab with greater force than the strength of the object is destroyed.
-        while(isBroke == false)
-		{
             if (collision.relativeVelocity.magnitude > objectStrength)
             {
-                Destroy(gameObject);
                 Break();
                 //destroyedObject.localScale = transform.localScale;
                 //Vector3 explosionPos = transform.position;
@@ -42,12 +39,16 @@ public class breakObject : MonoBehaviour
                 //        hit.attachedRigidbody.AddExplosionForce(explosionPower * collision.relativeVelocity.magnitude, explosionPos, objectExplosionRadius, upwardsExplosion);
                 //    }
                 //}
-            }
         }
     }
-    private void Break()
+    public void Break()
 	{
-        Instantiate(destroyedObject, transform.position, transform.rotation);
-        isBroke = true;
+        if(isBroke == false)
+		{
+            Instantiate(destroyedObject, transform.position, transform.rotation);
+            isBroke = true;
+            Destroy(gameObject);
+        }
+        
     }
 }
