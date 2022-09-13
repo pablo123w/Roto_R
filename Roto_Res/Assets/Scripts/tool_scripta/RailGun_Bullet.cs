@@ -5,7 +5,10 @@ using UnityEngine;
 public class RailGun_Bullet : MonoBehaviour
 {
     private float speed = 10f;
-   // public breakObject brk;
+    // public breakObject brk;
+    public float objectExplosionRadius;
+
+    public float explosionPower;
     // Start is called before the first frame update
     void Start()
     {
