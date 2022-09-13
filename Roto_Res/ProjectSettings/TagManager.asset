@@ -3,15 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Goober
-  - Floor
-  - test_Score
-<<<<<<< HEAD
-  - Destructible
-=======
-  - break_wall
->>>>>>> 34a9ab947d6475b8136e88074b13dbed56ffbb0b
+  tags: []
   layers:
   - Default
   - TransparentFX
