@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/liamClaw.unity
 =======
 - path: Assets/Scenes/Liams_Level.unity
 >>>>>>> Liam_OHare
+=======
+- path: Assets/Scenes/3D_Models_Test.unity
+>>>>>>> Jonathan_Mills
   isLoaded: 1
   isActive: 1
   isSubScene: 0
