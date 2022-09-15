@@ -15,11 +15,11 @@ E:/CAGD 470/ProjectRepository/Roto_R/Roto_Res
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49768
+51371
 Successfully changed project path to: E:/CAGD 470/ProjectRepository/Roto_R/Roto_Res
 E:/CAGD 470/ProjectRepository/Roto_R/Roto_Res
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,130 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001501 seconds.
+Registered in 0.001403 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.685 seconds
+- Completed reload, in  0.636 seconds
 Domain Reload Profiling:
-	ReloadAssembly (685ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (636ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (552ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (478ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
+			SetupTypeCache (148ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (218ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (195ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003586 seconds.
+Registered in 0.002895 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000272032F6DB0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FE0B7640 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203A48AC0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720350D450 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720350D450 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272021B6AB0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202C79230 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203522A60 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202ED3010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202F02820 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203F96040 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720318E010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272028E6260 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272021B6AB0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202E42020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FDDE29E0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720373F470 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720288C010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272020AC660 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272027C7010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272034219E0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FDDE29E0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272020AC660 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203A49420 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720373F470 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272020AC660 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FDEA9620 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FE4BE0D0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720288C010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.354 seconds
+- Completed reload, in  1.256 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1355ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (1257ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1132ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1052ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
+			SetupTypeCache (325ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (512ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (247ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (235ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -110,14 +168,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.4 MB.
-System memory in use after: 138.9 MB.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.7 MB.
+System memory in use after: 139.8 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3620.
-Total: 3.979900 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.140000 ms MarkObjects: 3.227200 ms  DeleteObjects: 0.360400 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3627.
+Total: 3.143500 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.123900 ms MarkObjects: 2.669400 ms  DeleteObjects: 0.122600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,60 +189,461 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Level_Designer_Test.unity
-  artifactKey: Guid(67d62cd9f50a78d4db0ea19d0da3e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_Designer_Test.unity using Guid(67d62cd9f50a78d4db0ea19d0da3e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eacac9482c5e86f20297108f8aaab7') in 0.020492 seconds 
+  path: Assets/Prefabs/ModularBuildings/stone_wall_broke.prefab
+  artifactKey: Guid(8a799509e03f6ec41bd1a807a568fa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/stone_wall_broke.prefab using Guid(8a799509e03f6ec41bd1a807a568fa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Cannot create required material because shader is null
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEngine.Rendering.CoreUtils:CreateEngineMaterial (UnityEngine.Shader)
+UnityEngine.Rendering.Universal.ForwardRenderer:.ctor (UnityEngine.Rendering.Universal.ForwardRendererData)
+UnityEngine.Rendering.Universal.ForwardRendererData:Create ()
+UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer ()
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers ()
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline ()
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '8797183930c11e21277999daee66f046') in 0.551933 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.785741 seconds.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Prefabs/ModularBuildings/stone_foundation_broke.prefab
+  artifactKey: Guid(b0815cc576d54384b8c7c56d8fba6384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/stone_foundation_broke.prefab using Guid(b0815cc576d54384b8c7c56d8fba6384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945f3c469c05e8a12f70183f813754e5') in 0.027102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Prefabs/ModularBuildings/stone_foundation_long_broke.prefab
+  artifactKey: Guid(24aff43c568666243ae31cb32fada6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/stone_foundation_long_broke.prefab using Guid(24aff43c568666243ae31cb32fada6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93424e815a1fba78d0a74cd2d2f67b5e') in 0.026646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Prefabs/ModularBuildings/wood_foundation_broke.prefab
+  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9acaffe7f6ef1b215b687410ede18d6') in 0.026113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Prefabs/ModularBuildings/wood_wall_broke.prefab
+  artifactKey: Guid(8b7e274fff7d19e4daefa69364c8718d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/wood_wall_broke.prefab using Guid(8b7e274fff7d19e4daefa69364c8718d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ebb6ed34f38a2aa5f7ab25c6987451') in 0.020251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/ModularBuildings/wood_foundation_long_broke.prefab
+  artifactKey: Guid(e346471ae95ff324aa531a612e48c002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/wood_foundation_long_broke.prefab using Guid(e346471ae95ff324aa531a612e48c002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174a62853e98e12fabce28378c71275c') in 0.020292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.090000 seconds.
+  path: Assets/Scripts/tool_scripta/RailGun_Bullet.cs
+  artifactKey: Guid(7dd341c17e9300d4286f1fdfd387dcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/tool_scripta/RailGun_Bullet.cs using Guid(7dd341c17e9300d4286f1fdfd387dcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc50f2361e2243f0b14afc23764d708') in 0.034739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.227599 seconds.
+  path: Assets/Scripts/tool_scripta/RopeLength.cs
+  artifactKey: Guid(40184b94d28c02243bc8b8961cdbe0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/tool_scripta/RopeLength.cs using Guid(40184b94d28c02243bc8b8961cdbe0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780fd3ce7f705d4249c85bffd7b4ce37') in 0.007609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.216337 seconds.
+  path: Assets/Scripts/tool_scripta/Railgun.cs
+  artifactKey: Guid(e63e79be17afc9c4c900070a85bb0ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/tool_scripta/Railgun.cs using Guid(e63e79be17afc9c4c900070a85bb0ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327b1ce00a1218d487f2d76ca18a5328') in 0.007477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.499981 seconds.
+  path: Assets/Prefabs/player.prefab
+  artifactKey: Guid(d6b5e9be24bc4c8478488d2f0086ba63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/player.prefab using Guid(d6b5e9be24bc4c8478488d2f0086ba63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208e1711106894599f7a575a55877b18') in 0.047346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Prefabs/railgun_placeholder.prefab
+  artifactKey: Guid(92ac44303c52a4b4585d17aa38c06f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/railgun_placeholder.prefab using Guid(92ac44303c52a4b4585d17aa38c06f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623892a6351c02505f9289de5045695a') in 0.022096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Prefabs/water.prefab
+  artifactKey: Guid(ed0a9c2b0a234864f98d808c2562e923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/water.prefab using Guid(ed0a9c2b0a234864f98d808c2562e923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c615ca3d542c8745e44b9c7ce307cc') in 0.025521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.956438 seconds.
   path: Assets/Scenes/Liams_Level.unity
   artifactKey: Guid(af43e5b334109bd458f43bfb4082a0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Liams_Level.unity using Guid(af43e5b334109bd458f43bfb4082a0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2947d590872768c6a01a018541e05457') in 0.008670 seconds 
+Start importing Assets/Scenes/Liams_Level.unity using Guid(af43e5b334109bd458f43bfb4082a0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab493acd0b4b111b207ae42aa9dbdeef') in 0.008406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.393849 seconds.
+  path: Assets/Scenes/3D_Models_Test.unity
+  artifactKey: Guid(731f0f1236edf614fb960f52e19c3dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3D_Models_Test.unity using Guid(731f0f1236edf614fb960f52e19c3dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a430c6f7dd9cc04105a5bdeb20b808') in 0.008647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398297 seconds.
+  path: Assets/Scenes/liamClaw.unity
+  artifactKey: Guid(e04ce38db4db89b4caadd3c9b2970149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/liamClaw.unity using Guid(e04ce38db4db89b4caadd3c9b2970149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12ff743a5534cc8da9611e7a7a2bf96') in 0.008138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.351340 seconds.
+  path: Assets/Scenes/Liams_Level.unity
+  artifactKey: Guid(af43e5b334109bd458f43bfb4082a0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Liams_Level.unity using Guid(af43e5b334109bd458f43bfb4082a0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e6fa3ae600b4a94267f09589981984') in 0.003715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.182722 seconds.
+  path: Assets/Scripts/Helo/HeloInput.inputactions
+  artifactKey: Guid(7972beb4453cf3a4bbdc973d5710be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Helo/HeloInput.inputactions using Guid(7972beb4453cf3a4bbdc973d5710be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f154559e92ccfaa5c406573621e4f16') in 0.013573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.243130 seconds.
+  path: Assets/Scripts/Helo/HeloInput.inputactions
+  artifactKey: Guid(7972beb4453cf3a4bbdc973d5710be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Helo/HeloInput.inputactions using Guid(7972beb4453cf3a4bbdc973d5710be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f180fa35dbb87e969ffe7fc9d1b0d6f') in 0.006947 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002496 seconds.
+Registered in 0.002431 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002720C9847B0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720B7A5DE0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202785020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272049FF020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FE36D010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272049FF020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272049FF020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FE3A6010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720354C010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202A7C030 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272078F2020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720AD922F0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720213CDE0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272022C4020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272076F7010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203F979C0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272028B57C0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202ED3010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272035A0010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FE229F80 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272076F7010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720228F030 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720B7A61A0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203F979C0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202ED3010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272024195A0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027206A18030 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720288C010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
+- Completed reload, in  1.304 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1123ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1305ms)
+		BeginReloadAssembly (224ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (939ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1014ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.3 MB.
+System memory in use after: 138.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3679.
+Total: 3.811900 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.190900 ms MarkObjects: 3.213600 ms  DeleteObjects: 0.117200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.908794 seconds.
+  path: Assets/Scripts/Helo/HeloInput.cs
+  artifactKey: Guid(43a2c7c5d59a59441a4fe54662ca0002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Helo/HeloInput.cs using Guid(43a2c7c5d59a59441a4fe54662ca0002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0742d8dff3d522975bca48744d220bbc') in 0.019244 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002799 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002720C711630 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273D75DE600 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202785020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273D7E77010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272049FF020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272049FF020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272049FF020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720267B020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027204F5E430 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027206DB2E60 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272078F2020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FE36FD60 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202132FB0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272075A9020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027204A07A30 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203F96660 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272028B57C0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203024020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272035A0010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720CC8C020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027204A07A30 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720CB9C010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273D75DEF60 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203F96660 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203024020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027206E21010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273D7E85020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720288C010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1183ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (354ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.4 MB.
+System memory in use after: 138.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3682.
+Total: 4.355700 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.133200 ms MarkObjects: 3.844800 ms  DeleteObjects: 0.123600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002954 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000272021BF4A0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027420AE8060 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202785020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203E1E020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203F4A010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FD7F5BA0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FD7F5BA0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720CBD8190 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720354C010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FE36F020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272078F2020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720AD93880 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203F4A010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272022C4020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203056020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203F97010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272028B57C0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027202C42020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000272035A0010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720CC8C020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203056020 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027207BEE010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027420AE8060 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027203F97010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720318E010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000273FD7F5BA0 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720749DE30 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002720288C010 doesn't match image E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (950ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (371ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.7 MB.
-System memory in use after: 133.1 MB.
+Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.4 MB.
+System memory in use after: 138.5 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3623.
-Total: 3.644700 ms (FindLiveObjects: 0.239800 ms CreateObjectMapping: 0.126600 ms MarkObjects: 2.953100 ms  DeleteObjects: 0.324200 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3685.
+Total: 3.351400 ms (FindLiveObjects: 0.229200 ms CreateObjectMapping: 0.134000 ms MarkObjects: 2.873900 ms  DeleteObjects: 0.113200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
