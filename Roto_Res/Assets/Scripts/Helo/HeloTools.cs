@@ -17,7 +17,7 @@ public class HeloTools : MonoBehaviour
         playerInputActions = new HeloInput();
         playerInputActions.Enable();
         gunPivot = GameObject.Find("gunPivot");
-        gunEnd = GameObject.Find("gunEnd");
+        gunEnd = GameObject.Find("railgun_placeholder");
 	}
 
 
