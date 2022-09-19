@@ -21,9 +21,9 @@ public class ClawStart : MonoBehaviour
            
             ply.Score += 1;
            other.transform.parent = hook_point.transform;
-            Rrgbd = Rope.GetComponent<Rigidbody>();
+            //Rrgbd = Rope.GetComponent<Rigidbody>();
             //Rrgbd.freezeRotation = true;
-            Rrgbd.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY;
+            //Rrgbd.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY;
 
             //Destroy(other.gameObject);
         }
