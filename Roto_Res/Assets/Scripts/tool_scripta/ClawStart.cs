@@ -18,8 +18,6 @@ public class ClawStart : MonoBehaviour
     {
         if (other.CompareTag("Goober"))
         {
-           
-            ply.Score += 1;
            other.transform.parent = hook_point.transform;
             Rrgbd = Rope.GetComponent<Rigidbody>();
             //Rrgbd.freezeRotation = true;
