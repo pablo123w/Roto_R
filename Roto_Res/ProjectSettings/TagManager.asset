@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - break_wall
+  - Floor
+  - Goober
+  - cut_rope
+  - Obstacle
   layers:
   - Default
   - TransparentFX
