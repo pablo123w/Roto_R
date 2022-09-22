@@ -36,12 +36,17 @@ public class PlayerMain : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        //if (other.CompareTag("Fire"))
-        //{
-        //    Health -= 20;
-        //    UpdateHealthText();
-        //}
+        if (other.CompareTag("Fire"))
+        {
+            Health -= 20;
+            UpdateHealthText();
+        }
         if (other.CompareTag("Floor"))
+        {
+            Health -= 50;
+            UpdateHealthText();
+        }
+        if (other.CompareTag("Obstacle"))
         {
             Health -= 50;
             UpdateHealthText();

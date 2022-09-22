@@ -4,10 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Goober
-  - Floor
-  - test_Score
   - break_wall
+  - Floor
+  - Goober
+  - cut_rope
+  - Obstacle
   layers:
   - Default
   - TransparentFX
