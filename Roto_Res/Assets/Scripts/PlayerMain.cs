@@ -8,33 +8,20 @@ using System;
 
 public class PlayerMain : MonoBehaviour
 {
-    public int Score;
-    public TMP_Text score_text;
     public int Health = 100;
     public TMP_Text health_text;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        Score = 0;
-        UpdateScoreText();
-    }
 
     // Update is called once per frame
     void Update()
     {
         Respawn();
-        UpdateScoreText();
     }
-    public void UpdateScoreText()
-    {
-        score_text.text = "Number of Goobers Saved: " + Score.ToString();
-    }
+
     public void UpdateHealthText()
     {
         health_text.text = "Health: " + Health.ToString();
     }
-    private void OnTriggerEnter(Collider other)
+    public void OnColliderEnter(Collider other)
     {
         if (other.CompareTag("Fire"))
         {
@@ -56,11 +43,11 @@ public class PlayerMain : MonoBehaviour
         //    Health -= 5;
         //    UpdateHealthText();
         //}
-        if (other.CompareTag("test_Score"))
-        {
-            Score += 1;
-            UpdateScoreText();
-        }
+        //if (other.CompareTag("Goober"))
+        //{
+        //    Score += 1;
+        //    UpdateScoreText();
+        //}
     }
     private void Respawn()
     {

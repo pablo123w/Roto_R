@@ -16,6 +16,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
     x: 0
+<<<<<<< HEAD
     y: 43.2
     width: 1536
     height: 772.8
@@ -25,6 +26,11 @@ MonoBehaviour:
     width: 1265.3334
     height: 623.3334
 >>>>>>> Patrick_Yang
+=======
+    y: 43
+    width: 1920
+    height: 989
+>>>>>>> origin/Liam_OHare
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 6}
@@ -51,6 +57,7 @@ MonoBehaviour:
     x: 0
     y: 30
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
     height: 722.8
   m_MinSize: {x: 679, y: 492}
@@ -65,6 +72,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 131
 >>>>>>> Patrick_Yang
+=======
+    width: 1920
+    height: 939
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 122
+>>>>>>> origin/Liam_OHare
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -81,6 +96,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1172.8
     y: 0
     width: 363.19995
@@ -91,6 +107,12 @@ MonoBehaviour:
     width: 298.6667
     height: 573.3333
 >>>>>>> Patrick_Yang
+=======
+    x: 1466
+    y: 0
+    width: 454
+    height: 939
+>>>>>>> origin/Liam_OHare
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -116,6 +138,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 361.6
     height: 436.8
   m_MinSize: {x: 200, y: 200}
@@ -126,6 +149,12 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
 >>>>>>> Patrick_Yang
+=======
+    width: 474
+    height: 586
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> origin/Liam_OHare
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -148,6 +177,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 436.8
     width: 1172.8
     height: 286
@@ -156,6 +186,11 @@ MonoBehaviour:
     width: 966.6667
     height: 270.66666
 >>>>>>> Patrick_Yang
+=======
+    y: 586
+    width: 1466
+    height: 353
+>>>>>>> origin/Liam_OHare
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
@@ -185,12 +220,17 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
     height: 772.8
 =======
     width: 1265.3334
     height: 623.3333
 >>>>>>> Patrick_Yang
+=======
+    width: 1920
+    height: 989
+>>>>>>> origin/Liam_OHare
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -215,10 +255,14 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
 =======
     width: 1265.3334
 >>>>>>> Patrick_Yang
+=======
+    width: 1920
+>>>>>>> origin/Liam_OHare
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -243,12 +287,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 752.8
     width: 1536
 =======
     y: 603.3333
     width: 1265.3334
 >>>>>>> Patrick_Yang
+=======
+    y: 969
+    width: 1920
+>>>>>>> origin/Liam_OHare
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -272,6 +321,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1172.8
     height: 722.8
   m_MinSize: {x: 403, y: 492}
@@ -286,6 +336,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 61
 >>>>>>> Patrick_Yang
+=======
+    width: 1466
+    height: 939
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 50
+>>>>>>> origin/Liam_OHare
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,6 +364,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1172.8
     height: 436.8
   m_MinSize: {x: 403, y: 221}
@@ -320,6 +379,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 62
 >>>>>>> Patrick_Yang
+=======
+    width: 1466
+    height: 586
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 51
+>>>>>>> origin/Liam_OHare
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -336,6 +403,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 361.6
     y: 0
     width: 811.2001
@@ -347,6 +415,12 @@ MonoBehaviour:
     y: 0
     width: 727.3334
     height: 302.66666
+=======
+    x: 474
+    y: 0
+    width: 992
+    height: 586
+>>>>>>> origin/Liam_OHare
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
 >>>>>>> Patrick_Yang
@@ -372,12 +446,13 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
     x: 0
+<<<<<<< HEAD
     y: 510.4
     width: 1171.8
     height: 265
@@ -387,6 +462,11 @@ MonoBehaviour:
     width: 965.6667
     height: 249.66666
 >>>>>>> Patrick_Yang
+=======
+    y: 659
+    width: 1465
+    height: 332
+>>>>>>> origin/Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -401,12 +481,17 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Prefabs
+=======
+    - Assets/Prefabs/ModularBuildings
+>>>>>>> origin/Liam_OHare
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\pyang\OneDrive\Documents\GitHub\Roto_R\Roto_Res
@@ -424,6 +509,18 @@ MonoBehaviour:
     m_LastClickedID: 20284
     m_ExpandedIDs: 00000000384f00003a4f00003c4f00003e4f000000ca9a3b
 >>>>>>> Patrick_Yang
+=======
+  - Assets/Prefabs/ModularBuildings
+  m_LastFoldersGridSize: 64
+  m_LastProjectPath: E:\CAGD 470\ProjectRepository\Roto_R\Roto_Res
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 56}
+    m_SelectedIDs: 44520000
+    m_LastClickedID: 21060
+    m_ExpandedIDs: 000000005451000062510000665100006c5100004a520000f2ea0000f4ea000000ca9a3bffffff7f
+>>>>>>> origin/Liam_OHare
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,10 +549,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000404f0000
 =======
     m_ExpandedIDs: 00000000384f00003a4f00003c4f00003e4f0000
 >>>>>>> Patrick_Yang
+=======
+    m_ExpandedIDs: 0000000054510000
+>>>>>>> origin/Liam_OHare
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -527,10 +628,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 1172.8
     y: 73.6
@@ -542,6 +644,12 @@ MonoBehaviour:
     width: 297.6667
     height: 552.3333
 >>>>>>> Patrick_Yang
+=======
+    x: 1466
+    y: 73
+    width: 453
+    height: 918
+>>>>>>> origin/Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -571,12 +679,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
     x: 0
+<<<<<<< HEAD
     y: 73.6
     width: 360.6
     height: 415.8
@@ -597,6 +706,18 @@ MonoBehaviour:
 >>>>>>> Patrick_Yang
       m_LastClickedID: 0
       m_ExpandedIDs: 68fbffff
+=======
+    y: 73
+    width: 473
+    height: 565
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1e34fdff3234fdff3434fdff9a60fdff06f9ffff1af9ffff2ef9ffff42f9ffff56f9ffff5ef9ffff6af9ffffbaf9ffff68fbffff0a4c0000
+>>>>>>> origin/Liam_OHare
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -636,10 +757,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 361.6
     y: 73.6
@@ -651,6 +773,12 @@ MonoBehaviour:
     width: 725.3334
     height: 281.66666
 >>>>>>> Patrick_Yang
+=======
+    x: 474
+    y: 73
+    width: 990
+    height: 565
+>>>>>>> origin/Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -664,6 +792,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -12.585749, y: 25.334291, z: 0.040000007}
     speed: 2
     m_Value: {x: -12.585749, y: 25.334291, z: 0.040000007}
@@ -672,6 +801,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 34.054382, y: 31.880714, z: 13.391798}
 >>>>>>> Patrick_Yang
+=======
+    m_Target: {x: -19.39374, y: 9.440159, z: 0.6382227}
+    speed: 2
+    m_Value: {x: -19.39374, y: 9.440159, z: 0.6382227}
+>>>>>>> origin/Liam_OHare
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -719,6 +853,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.12313371, y: 0.14591958, z: -0.018309835, w: -0.981449}
     speed: 2
     m_Value: {x: -0.12313176, y: 0.14591727, z: -0.018309545, w: -0.98143345}
@@ -735,13 +870,22 @@ MonoBehaviour:
     speed: 2
     m_Value: 32.40895
 >>>>>>> Patrick_Yang
+=======
+    m_Target: {x: -0.06750085, y: -0.08641481, z: 0.0058732047, w: -0.99395776}
+    speed: 2
+    m_Value: {x: -0.067500494, y: -0.08641435, z: 0.005873174, w: -0.9939526}
+  m_Size:
+    m_Target: 7.1271224
+    speed: 2
+    m_Value: 7.1271224
+>>>>>>> origin/Liam_OHare
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.1204399
+    m_SpeedNormalized: 0.55999994
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -752,7 +896,11 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+=======
+  m_LastSceneViewRotation: {x: -0.27723107, y: -0.19093539, z: 0.05632604, w: -0.939963}
+>>>>>>> origin/Liam_OHare
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -775,14 +923,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 361.6
     y: 73.6
     width: 809.2001
     height: 415.8
+=======
+    x: 474
+    y: 73
+    width: 990
+    height: 565
+>>>>>>> origin/Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -790,7 +945,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 1920, y: 1080}
+=======
+  m_TargetSize: {x: 990, y: 544}
+>>>>>>> origin/Liam_OHare
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -806,6 +965,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -768
     m_HBaseRangeMax: 768
     m_VBaseRangeMin: -432
@@ -816,6 +976,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -256.33334
     m_VBaseRangeMax: 256.33334
 >>>>>>> Patrick_Yang
+=======
+    m_HBaseRangeMin: -495
+    m_HBaseRangeMax: 495
+    m_VBaseRangeMin: -272
+    m_VBaseRangeMax: 272
+>>>>>>> origin/Liam_OHare
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -833,28 +999,46 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 809.2001
       height: 394.8
     m_Scale: {x: 0.45694444, y: 0.45694444}
     m_Translation: {x: 404.60004, y: 197.4}
+=======
+      width: 990
+      height: 544
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 495, y: 272}
+>>>>>>> origin/Liam_OHare
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -885.4469
       y: -432
       width: 1770.8938
       height: 864
+=======
+      x: -495
+      y: -272
+      width: 990
+      height: 544
+>>>>>>> origin/Liam_OHare
     m_MinimalGUI: 1
 <<<<<<< HEAD
   m_defaultScale: 0.45694444
   m_LastWindowPixelSize: {x: 1011.5001, y: 519.75}
 =======
   m_defaultScale: 1
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 2298, y: 1185}
 >>>>>>> Patrick_Yang
+=======
+  m_LastWindowPixelSize: {x: 990, y: 565}
+>>>>>>> origin/Liam_OHare
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -876,12 +1060,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
     x: 0
+<<<<<<< HEAD
     y: 510.4
     width: 1171.8
     height: 265
@@ -891,6 +1076,11 @@ MonoBehaviour:
     width: 920
     height: 250
 >>>>>>> Patrick_Yang
+=======
+    y: 659
+    width: 1465
+    height: 332
+>>>>>>> origin/Liam_OHare
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
