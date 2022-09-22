@@ -9,6 +9,7 @@ TagManager:
   - Goober
   - cut_rope
   - Obstacle
+  - C_Goober
   layers:
   - Default
   - TransparentFX

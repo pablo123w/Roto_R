@@ -31,7 +31,6 @@ Transform:
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 4046451115787377096}
-  - {fileID: 1756202271214229835}
   m_Father: {fileID: 2177986256231219089}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -503,8 +502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4565890e2fec145b529641d670fa69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Score: 0
-  score_text: {fileID: 0}
   Health: 100
   health_text: {fileID: 0}
 --- !u!1 &7880035144488085822
@@ -537,80 +534,6 @@ Transform:
   m_Father: {fileID: 4046451115787377096}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1409405236327003167
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2177986254821339128}
-    m_Modifications:
-    - target: {fileID: 851319080214195528, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_Name
-      value: claw
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.0391233
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.6750945
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.6750948
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.032
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.491
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.71236366
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7018106
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
---- !u!4 &1756202271214229835 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 851319080214195540, guid: 03f6d0cc0a1885b4793369547597e9e3, type: 3}
-  m_PrefabInstance: {fileID: 1409405236327003167}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7470084407774510722
 PrefabInstance:
   m_ObjectHideFlags: 0
