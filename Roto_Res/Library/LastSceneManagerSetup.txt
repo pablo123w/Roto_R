@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Liams_Level.unity
+=======
+- path: Assets/Scenes/liamClaw.unity
+>>>>>>> a902461da66300490f09eef54d8fc7bc9daedf15
   isLoaded: 1
   isActive: 1
   isSubScene: 0
