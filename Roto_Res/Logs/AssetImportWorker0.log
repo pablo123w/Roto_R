@@ -15,11 +15,11 @@ E:/CAGD 470/ProjectRepository/Roto_R/Roto_Res
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52587
+52699
 Successfully changed project path to: E:/CAGD 470/ProjectRepository/Roto_R/Roto_Res
 E:/CAGD 470/ProjectRepository/Roto_R/Roto_Res
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000730 seconds.
+Registered in 0.000687 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.333 seconds
+- Completed reload, in  0.314 seconds
 Domain Reload Profiling:
-	ReloadAssembly (333ms)
-		BeginReloadAssembly (37ms)
+	ReloadAssembly (314ms)
+		BeginReloadAssembly (32ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (254ms)
-			LoadAssemblies (36ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (246ms)
+			LoadAssemblies (31ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (78ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (104ms)
+			RebuildScriptCaches (14ms)
+			SetupLoadedEditorAssemblies (103ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (44ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (43ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,51 +73,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001206 seconds.
+Registered in 0.001230 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
+- Completed reload, in  0.657 seconds
 Domain Reload Profiling:
-	ReloadAssembly (705ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (2ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (591ms)
-			LoadAssemblies (58ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (549ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.3 MB.
-System memory in use after: 140.4 MB.
+Unloading 3195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.4 MB.
+System memory in use after: 140.5 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3634.
-Total: 2.193400 ms (FindLiveObjects: 0.146100 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.886900 ms  DeleteObjects: 0.093900 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3637.
+Total: 2.136500 ms (FindLiveObjects: 0.138100 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.842300 ms  DeleteObjects: 0.088500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -154,29 +154,106 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 (Filename: Library/PackageCache/com.unity.render-pipelines.core@10.10.0/Runtime/Utilities/CoreUtils.cs Line: 840)
 
- -> (artifact id: '4ca039d677312ab050279163dd32e35c') in 0.140215 seconds 
+ -> (artifact id: '29b4e692558f5932c6f9712ca4ea79cc') in 0.133688 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.621 seconds
+Domain Reload Profiling:
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (510ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (201ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3688.
+Total: 2.244200 ms (FindLiveObjects: 0.144100 ms CreateObjectMapping: 0.062100 ms MarkObjects: 1.962500 ms  DeleteObjects: 0.074900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.446571 seconds.
-  path: Assets/Prefabs/claw.prefab
-  artifactKey: Guid(03f6d0cc0a1885b4793369547597e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/claw.prefab using Guid(03f6d0cc0a1885b4793369547597e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ef0294af1c7ce559910137b52d2fc7') in 0.014944 seconds 
+  Time since last request: 96.941950 seconds.
+  path: Assets/Prefabs/cuttable_rope.prefab
+  artifactKey: Guid(c42d13298eadadb4f90d443eb086c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cuttable_rope.prefab using Guid(c42d13298eadadb4f90d443eb086c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Cannot create required material because shader is null
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEngine.Rendering.CoreUtils:CreateEngineMaterial (UnityEngine.Shader) (at Library/PackageCache/com.unity.render-pipelines.core@10.10.0/Runtime/Utilities/CoreUtils.cs:840)
+UnityEngine.Rendering.Universal.ForwardRenderer:.ctor (UnityEngine.Rendering.Universal.ForwardRendererData) (at Library/PackageCache/com.unity.render-pipelines.universal@10.10.0/Runtime/ForwardRenderer.cs:108)
+UnityEngine.Rendering.Universal.ForwardRendererData:Create () (at Library/PackageCache/com.unity.render-pipelines.universal@10.10.0/Runtime/ForwardRendererData.cs:98)
+UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer () (at Library/PackageCache/com.unity.render-pipelines.universal@10.10.0/Runtime/ScriptableRendererData.cs:51)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@10.10.0/Runtime/Data/UniversalRenderPipelineAsset.cs:379)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@10.10.0/Runtime/Data/UniversalRenderPipelineAsset.cs:329)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.core@10.10.0/Runtime/Utilities/CoreUtils.cs Line: 840)
+
+ -> (artifact id: '41d4176dc889451afd803284f48db583') in 0.127958 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Prefabs/railgun_placeholder.prefab
-  artifactKey: Guid(92ac44303c52a4b4585d17aa38c06f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/railgun_placeholder.prefab using Guid(92ac44303c52a4b4585d17aa38c06f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bc19a3508d6a36a1d90c68c4fd4fd7') in 0.015148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
+  Time since last request: 0.000100 seconds.
   path: Assets/Prefabs/player.prefab
   artifactKey: Guid(d6b5e9be24bc4c8478488d2f0086ba63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/player.prefab using Guid(d6b5e9be24bc4c8478488d2f0086ba63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93105ab95931b56a9bf9372df45e65bb') in 0.018334 seconds 
+Start importing Assets/Prefabs/player.prefab using Guid(d6b5e9be24bc4c8478488d2f0086ba63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc85c8985572fd3dc5c13da39bfde1c') in 0.023826 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Prefabs/rope.prefab
-  artifactKey: Guid(f4bfbd3130781c140a44b6a69915e634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rope.prefab using Guid(f4bfbd3130781c140a44b6a69915e634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fe718040f17075a530279988e979e2') in 0.021785 seconds 
+  Time since last request: 0.000100 seconds.
+  path: Assets/Prefabs/goobtube_proto.prefab
+  artifactKey: Guid(10c1a56d7181f3346bdf7f32da9d9c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/goobtube_proto.prefab using Guid(10c1a56d7181f3346bdf7f32da9d9c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6209de455c5c3baca2e03696f74e427a') in 0.028352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Prefabs/rope_piece.prefab
+  artifactKey: Guid(828ecbf284c65c94d8607247765ac6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/rope_piece.prefab using Guid(828ecbf284c65c94d8607247765ac6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e11f96cabe7c6bc4b2774eea610294') in 0.019506 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
