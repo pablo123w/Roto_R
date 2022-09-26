@@ -24,9 +24,6 @@ public class Railgun : ToolBase_Guns
         if (Input.GetKeyDown("l"))
         {
             shooting();
-           
-            
-
         }
 
     }

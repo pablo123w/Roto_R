@@ -3,31 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class WaterGun : MonoBehaviour
+public class WaterGun : ToolBase_Guns
 {
-    public Rigidbody projectile;
-    public float speed = 20;
-
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        if (Input.GetKey("q"))
+        if (Input.GetKeyDown("l"))
         {
-
-            Rigidbody instantiatedProjectile = Instantiate(projectile, transform.position, transform.rotation) as Rigidbody;
-            instantiatedProjectile.velocity = transform.TransformDirection(new Vector3(0, 0, speed));
-           // Rigidbody instBulletRigidbody = instantiatedProjectile.GetComponent<Rigidbody>();
-            // instBulletRigidbody.AddForce(Vector3.right * speed);
+            shooting();
         }
     }
-    //public void Shoot(InputAction.CallbackContext context)
-    //{
-        
-        
-    //        GameObject instantiatedProjectile = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
-    //        Rigidbody instBulletRigidbody = instantiatedProjectile.GetComponent<Rigidbody>();
-    //    instBulletRigidbody.AddForce(Vector3.right * speed, ForceMode.Force);
-        
-       
-    //}
+    public void Fire(InputAction.CallbackContext context)
+    {
+        shooting();
+    }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class WaterBullet : MonoBehaviour
 {
     public GameObject effect;
+    private float speed = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +15,34 @@ public class WaterBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Move();
     }
-    private void OnCollisionEnter(Collision collision)
+    public void Move()
     {
-        GameObject effectW = Instantiate(effect, transform.position, Quaternion.identity);
-        Destroy(effect, 3f);
-        Destroy(gameObject);
+        Vector3 bulletSpeed = Vector3.left * speed;
+        transform.Translate(bulletSpeed * Time.deltaTime);
+    }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Fire")
+        {
+            Destroy(other.gameObject);
+        }
+        if(other.gameObject.tag == "Wall")
+        {
+            effect.SetActive(true);
+            Rigidbody rg;
+             rg = other.GetComponent<Rigidbody>();
+            rg.AddForce(-10, 0, 0, ForceMode.Force);
+            
+        }
+       
+    }
+    public void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.tag == "Wall")
+        {
+            effect.SetActive(false);
+        }
     }
 }
