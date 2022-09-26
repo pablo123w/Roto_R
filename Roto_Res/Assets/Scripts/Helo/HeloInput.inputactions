@@ -51,18 +51,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "WaterGun_Shoot",
+                    "name": "WeaponSwitch_2",
                     "type": "Button",
-                    "id": "4c107bd2-1e2b-4f99-99ef-d0b8b060f8f6",
+                    "id": "f1693f51-dbac-451b-a048-cdf4720fad00",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
-                    "name": "WeapomSwitch_2",
+                    "name": "WeaponSwitch_3",
                     "type": "Button",
-                    "id": "f1693f51-dbac-451b-a048-cdf4720fad00",
+                    "id": "17669e2a-e7dc-43bd-81d0-c552daa00d44",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -270,28 +270,6 @@
                 },
                 {
                     "name": "",
-                    "id": "d10db44c-daee-4dd4-b3af-7b5d029b3b50",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "WaterGun_Shoot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e427c66a-7009-4f07-8bf4-172fe7d95caf",
-                    "path": "<Gamepad>/leftTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "WaterGun_Shoot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "72ac2d6d-5d63-4a00-ba2e-5bd07f55f6b9",
                     "path": "<Gamepad>/dpad/up",
                     "interactions": "",
@@ -308,7 +286,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "WeapomSwitch_2",
+                    "action": "WeaponSwitch_2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc407615-f6ed-4624-b007-77625b3129ba",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WeaponSwitch_3",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

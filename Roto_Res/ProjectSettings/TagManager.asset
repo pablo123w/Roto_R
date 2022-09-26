@@ -10,6 +10,7 @@ TagManager:
   - cut_rope
   - Obstacle
   - C_Goober
+  - Wall
   layers:
   - Default
   - TransparentFX

@@ -73,18 +73,18 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""WaterGun_Shoot"",
+                    ""name"": ""WeaponSwitch_2"",
                     ""type"": ""Button"",
-                    ""id"": ""4c107bd2-1e2b-4f99-99ef-d0b8b060f8f6"",
+                    ""id"": ""f1693f51-dbac-451b-a048-cdf4720fad00"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": true
+                    ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""WeapomSwitch_2"",
+                    ""name"": ""WeaponSwitch_3"",
                     ""type"": ""Button"",
-                    ""id"": ""f1693f51-dbac-451b-a048-cdf4720fad00"",
+                    ""id"": ""17669e2a-e7dc-43bd-81d0-c552daa00d44"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -292,28 +292,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""d10db44c-daee-4dd4-b3af-7b5d029b3b50"",
-                    ""path"": ""<Keyboard>/q"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""WaterGun_Shoot"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e427c66a-7009-4f07-8bf4-172fe7d95caf"",
-                    ""path"": ""<Gamepad>/leftTrigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""WaterGun_Shoot"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""72ac2d6d-5d63-4a00-ba2e-5bd07f55f6b9"",
                     ""path"": ""<Gamepad>/dpad/up"",
                     ""interactions"": """",
@@ -330,7 +308,18 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""WeapomSwitch_2"",
+                    ""action"": ""WeaponSwitch_2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dc407615-f6ed-4624-b007-77625b3129ba"",
+                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""WeaponSwitch_3"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -346,8 +335,8 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_LetGO = m_Player.FindAction("LetGO", throwIfNotFound: true);
         m_Player_WeaponSwitch_1 = m_Player.FindAction("WeaponSwitch_1", throwIfNotFound: true);
-        m_Player_WaterGun_Shoot = m_Player.FindAction("WaterGun_Shoot", throwIfNotFound: true);
-        m_Player_WeapomSwitch_2 = m_Player.FindAction("WeapomSwitch_2", throwIfNotFound: true);
+        m_Player_WeaponSwitch_2 = m_Player.FindAction("WeaponSwitch_2", throwIfNotFound: true);
+        m_Player_WeaponSwitch_3 = m_Player.FindAction("WeaponSwitch_3", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -412,8 +401,8 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_LetGO;
     private readonly InputAction m_Player_WeaponSwitch_1;
-    private readonly InputAction m_Player_WaterGun_Shoot;
-    private readonly InputAction m_Player_WeapomSwitch_2;
+    private readonly InputAction m_Player_WeaponSwitch_2;
+    private readonly InputAction m_Player_WeaponSwitch_3;
     public struct PlayerActions
     {
         private @HeloInput m_Wrapper;
@@ -423,8 +412,8 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @LetGO => m_Wrapper.m_Player_LetGO;
         public InputAction @WeaponSwitch_1 => m_Wrapper.m_Player_WeaponSwitch_1;
-        public InputAction @WaterGun_Shoot => m_Wrapper.m_Player_WaterGun_Shoot;
-        public InputAction @WeapomSwitch_2 => m_Wrapper.m_Player_WeapomSwitch_2;
+        public InputAction @WeaponSwitch_2 => m_Wrapper.m_Player_WeaponSwitch_2;
+        public InputAction @WeaponSwitch_3 => m_Wrapper.m_Player_WeaponSwitch_3;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -449,12 +438,12 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @WeaponSwitch_1.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_1;
                 @WeaponSwitch_1.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_1;
                 @WeaponSwitch_1.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_1;
-                @WaterGun_Shoot.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWaterGun_Shoot;
-                @WaterGun_Shoot.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWaterGun_Shoot;
-                @WaterGun_Shoot.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWaterGun_Shoot;
-                @WeapomSwitch_2.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeapomSwitch_2;
-                @WeapomSwitch_2.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeapomSwitch_2;
-                @WeapomSwitch_2.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeapomSwitch_2;
+                @WeaponSwitch_2.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_2;
+                @WeaponSwitch_2.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_2;
+                @WeaponSwitch_2.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_2;
+                @WeaponSwitch_3.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_3;
+                @WeaponSwitch_3.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_3;
+                @WeaponSwitch_3.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_3;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -474,12 +463,12 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @WeaponSwitch_1.started += instance.OnWeaponSwitch_1;
                 @WeaponSwitch_1.performed += instance.OnWeaponSwitch_1;
                 @WeaponSwitch_1.canceled += instance.OnWeaponSwitch_1;
-                @WaterGun_Shoot.started += instance.OnWaterGun_Shoot;
-                @WaterGun_Shoot.performed += instance.OnWaterGun_Shoot;
-                @WaterGun_Shoot.canceled += instance.OnWaterGun_Shoot;
-                @WeapomSwitch_2.started += instance.OnWeapomSwitch_2;
-                @WeapomSwitch_2.performed += instance.OnWeapomSwitch_2;
-                @WeapomSwitch_2.canceled += instance.OnWeapomSwitch_2;
+                @WeaponSwitch_2.started += instance.OnWeaponSwitch_2;
+                @WeaponSwitch_2.performed += instance.OnWeaponSwitch_2;
+                @WeaponSwitch_2.canceled += instance.OnWeaponSwitch_2;
+                @WeaponSwitch_3.started += instance.OnWeaponSwitch_3;
+                @WeaponSwitch_3.performed += instance.OnWeaponSwitch_3;
+                @WeaponSwitch_3.canceled += instance.OnWeaponSwitch_3;
             }
         }
     }
@@ -491,7 +480,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         void OnFire(InputAction.CallbackContext context);
         void OnLetGO(InputAction.CallbackContext context);
         void OnWeaponSwitch_1(InputAction.CallbackContext context);
-        void OnWaterGun_Shoot(InputAction.CallbackContext context);
-        void OnWeapomSwitch_2(InputAction.CallbackContext context);
+        void OnWeaponSwitch_2(InputAction.CallbackContext context);
+        void OnWeaponSwitch_3(InputAction.CallbackContext context);
     }
 }
