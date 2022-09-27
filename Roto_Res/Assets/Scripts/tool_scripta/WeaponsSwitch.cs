@@ -64,4 +64,18 @@ public class WeaponsSwitch : MonoBehaviour
             
         }
     }
+    public void sWeaponsFirst(InputAction.CallbackContext context)
+    {
+        tool_1.SetActive(true);
+        tool_2.SetActive(false);
+        tool_1_1.SetActive(false);
+        tool_1_2.SetActive(false);
+    }
+    public void sWeaponsTwo(InputAction.CallbackContext context)
+    {
+        tool_1.SetActive(false);
+        tool_2.SetActive(true);
+        tool_1_1.SetActive(false);
+        tool_1_2.SetActive(false);
+    }
 }

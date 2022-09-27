@@ -32,7 +32,10 @@ public class Railgun : ToolBase_Guns
     }
    
 
-   
+   public void Fire(InputAction.CallbackContext context)
+    {
+        shooting();
+    }
     public void aim(InputAction.CallbackContext context)
     {
         targetPosition = context.ReadValue<Vector2>();
