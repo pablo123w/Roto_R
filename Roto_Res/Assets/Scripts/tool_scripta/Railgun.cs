@@ -24,15 +24,15 @@ public class Railgun : ToolBase_Guns
         if (Input.GetKeyDown("l"))
         {
             shooting();
-           
-            
-
         }
 
     }
    
 
-   
+   public void Fire(InputAction.CallbackContext context)
+    {
+        shooting();
+    }
     public void aim(InputAction.CallbackContext context)
     {
         targetPosition = context.ReadValue<Vector2>();
