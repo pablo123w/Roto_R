@@ -720,8 +720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tool_1: {fileID: 1918333802}
-  tool_1_1: {fileID: 0}
-  tool_1_2: {fileID: 0}
+  tool_3: {fileID: 0}
   tool_2: {fileID: 457035059}
 --- !u!23 &249629794
 MeshRenderer:
@@ -2216,7 +2215,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a9ff0da913c73d145bfe78aa348883aa, type: 2}
+  - {fileID: 2100000, guid: 54a5115536a94a7449868b9af81e80bf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
