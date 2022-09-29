@@ -6,26 +6,10 @@ using UnityEngine.InputSystem;
 public class WeaponsSwitch : MonoBehaviour
 {
     public GameObject tool_1;
-    public GameObject tool_1_1;
-    public GameObject tool_1_2;
+    public GameObject tool_3;
     public GameObject tool_2;
-    // public GameObject tool_3;
-    //  public GameObject tool_4;
+   
 
-    //public GameObject[] weapons; // push your prefabs
-
-  //  public int currentWeapon = 0;
-
- //   private int nrWeapons;
-
-    void Start()
-    {
-
-      
-
-        
-
-    }
 
     void Update()
     {
@@ -37,45 +21,46 @@ public class WeaponsSwitch : MonoBehaviour
         {
             tool_1.SetActive(true);
             tool_2.SetActive(false);
-            tool_1_1.SetActive(false);
-            tool_1_2.SetActive(false);
+            tool_3.SetActive(false);
+            GameObject oh;
+            oh = tool_2;
+           // oh.GetComponent<Railgun>().Fire;
+            
         }
         if (Input.GetKeyDown("b"))
         {
             tool_1.SetActive(false);
+            tool_3.SetActive(false);
             tool_2.SetActive(true);
-            tool_1_1.SetActive(false);
-            tool_1_2.SetActive(false);
+            
         }
         if (Input.GetKeyDown("1"))
         {
             tool_1.SetActive(false);
             tool_2.SetActive(false);
-            tool_1_1.SetActive(true);
-            tool_1_2.SetActive(false);
-          
+            tool_3.SetActive(true);
         }
-        if (Input.GetKeyDown("2"))
-        {
-            tool_1.SetActive(false);
-            tool_2.SetActive(false);
-            tool_1_2.SetActive(true);
-            tool_1_1.SetActive(false);
-            
-        }
+        
     }
     public void sWeaponsFirst(InputAction.CallbackContext context)
     {
         tool_1.SetActive(true);
         tool_2.SetActive(false);
-        tool_1_1.SetActive(false);
-        tool_1_2.SetActive(false);
+        tool_3.SetActive(false);
+       
     }
     public void sWeaponsTwo(InputAction.CallbackContext context)
     {
         tool_1.SetActive(false);
         tool_2.SetActive(true);
-        tool_1_1.SetActive(false);
-        tool_1_2.SetActive(false);
+        tool_3.SetActive(false);
+        
+    }
+    public void sWeaponsThree(InputAction.CallbackContext context)
+    {
+        tool_1.SetActive(false);
+        tool_3.SetActive(true);
+        tool_2.SetActive(false);
+
     }
 }
