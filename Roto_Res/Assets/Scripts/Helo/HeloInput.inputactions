@@ -67,6 +67,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "water_gun",
+                    "type": "Button",
+                    "id": "cb6e7179-b703-46b8-883e-cbe0631c6301",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -237,6 +246,17 @@
                 },
                 {
                     "name": "",
+                    "id": "b9375b94-f6d4-414c-9163-c250d6d790e9",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "StickDeadzone",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "abe71c91-6a69-4b26-a96b-8bfb9286a958",
                     "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
@@ -298,6 +318,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "WeaponSwitch_3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b647b35b-4e1d-409d-b7c0-20d4e8005b21",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "water_gun",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
