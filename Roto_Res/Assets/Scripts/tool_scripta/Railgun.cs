@@ -33,16 +33,16 @@ public class Railgun : ToolBase_Guns
     {
         shooting();
     }
-    public void aim(InputAction.CallbackContext context)
-    {
-        targetPosition = context.ReadValue<Vector2>();
-        if (targetPosition.y < 0)
-            gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, targetPosition);
-        else if (targetPosition.y > 0 && targetPosition.x < 0)
-            gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.left);
-        else if (targetPosition.y > 0 && targetPosition.x > 0)
-            gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.right);
-    }
+    //public void aim(InputAction.CallbackContext context)
+    //{
+    //    targetPosition = context.ReadValue<Vector2>();
+    //    if (targetPosition.y < 0)
+    //        gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, targetPosition);
+    //    else if (targetPosition.y > 0 && targetPosition.x < 0)
+    //        gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.left);
+    //    else if (targetPosition.y > 0 && targetPosition.x > 0)
+    //        gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.right);
+    //}
 
 }       
     

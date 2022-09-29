@@ -9,7 +9,7 @@ public class WaterBullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        effect.SetActive(true);
     }
 
     // Update is called once per frame
@@ -19,8 +19,9 @@ public class WaterBullet : MonoBehaviour
     }
     public void Move()
     {
-        Vector3 bulletSpeed = Vector3.left * speed;
+        Vector3 bulletSpeed = Vector3.right * speed;
         transform.Translate(bulletSpeed * Time.deltaTime);
+        
     }
     public void OnTriggerEnter(Collider other)
     {
@@ -30,19 +31,12 @@ public class WaterBullet : MonoBehaviour
         }
         if(other.gameObject.tag == "Wall")
         {
-            effect.SetActive(true);
+           
             Rigidbody rg;
              rg = other.GetComponent<Rigidbody>();
             rg.AddForce(-10, 0, 0, ForceMode.Force);
             
         }
        
-    }
-    public void OnTriggerExit(Collider other)
-    {
-        if(other.gameObject.tag == "Wall")
-        {
-            effect.SetActive(false);
-        }
     }
 }
