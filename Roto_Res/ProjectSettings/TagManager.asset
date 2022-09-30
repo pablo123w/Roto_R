@@ -4,13 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - break_wall
-  - Floor
-  - Goober
-  - cut_rope
-  - Obstacle
-  - C_Goober
-  - Wall
+  - prop
   layers:
   - Default
   - TransparentFX
