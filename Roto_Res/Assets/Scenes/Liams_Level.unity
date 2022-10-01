@@ -3110,6 +3110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_foundation_long_intact
       objectReference: {fileID: 0}
+    - target: {fileID: 5174987876983713495, guid: 054951b443519774d818d295d65f179b, type: 3}
+      propertyPath: destroyedObject
+      value: 
+      objectReference: {fileID: 5174987876983713490, guid: e346471ae95ff324aa531a612e48c002, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 054951b443519774d818d295d65f179b, type: 3}
 --- !u!1 &2141773337
@@ -5570,8 +5574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tool_1: {fileID: 7740135117151707243}
-  tool_1_1: {fileID: 0}
-  tool_1_2: {fileID: 0}
+  tool_3: {fileID: 0}
   tool_2: {fileID: 4046451115853498195}
 --- !u!1 &8862054612258911609
 GameObject:

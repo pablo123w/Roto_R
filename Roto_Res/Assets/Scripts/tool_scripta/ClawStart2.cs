@@ -10,7 +10,7 @@ public class ClawStart2 : MonoBehaviour
     public GameObject Rope;
     private GameObject goob;
     Rigidbody Rrgbd;
-    //public breakObject cv;
+    public Rigidbody[] Rbs;
 
 
     private void OnTriggerEnter(Collider other)
@@ -18,12 +18,13 @@ public class ClawStart2 : MonoBehaviour
         if (other.CompareTag("C_Goober"))
         {
             other.transform.parent = hook_point.transform;
-            Rrgbd = other.GetComponent<Rigidbody>();
-            //Rrgbd.freezeRotation = true;
-            Rrgbd.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY;
-            Rrgbd.isKinematic = true;
-
-            //Destroy(other.gameObject);
+            Rbs = other.GetComponentsInChildren<Rigidbody>();
+            foreach(Rigidbody rb in Rbs)
+			{
+                rb.freezeRotation = true;
+                rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY;
+                rb.isKinematic = true;
+            }
         }
 
     }
