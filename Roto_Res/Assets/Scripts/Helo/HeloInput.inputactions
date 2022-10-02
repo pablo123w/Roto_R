@@ -69,9 +69,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "water_gun",
+                    "name": "Pause",
                     "type": "Button",
-                    "id": "cb6e7179-b703-46b8-883e-cbe0631c6301",
+                    "id": "84405243-57f5-4e43-bc28-7aa02f2e800d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "water",
+                    "type": "Button",
+                    "id": "8a063e76-309b-433d-a0ec-df14e4b6b506",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -323,12 +332,23 @@
                 },
                 {
                     "name": "",
-                    "id": "b647b35b-4e1d-409d-b7c0-20d4e8005b21",
-                    "path": "<Gamepad>/leftTrigger",
+                    "id": "9cafee68-4e8f-4849-96a1-e1602c7cfa56",
+                    "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "water_gun",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e3f291bf-11d9-4e5d-9154-bdf2009d64ea",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "water",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

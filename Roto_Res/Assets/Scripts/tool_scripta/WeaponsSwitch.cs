@@ -8,9 +8,14 @@ public class WeaponsSwitch : MonoBehaviour
     public GameObject tool_1;
     public GameObject tool_3;
     public GameObject tool_2;
-   
+     public Railgun rg;
+    public WaterGun rd;
 
-
+    public void Start()
+    {
+        rg = GetComponent<Railgun>();
+        rd = GetComponent<WaterGun>();
+    }
     void Update()
     {
         switchWeapons();
@@ -22,10 +27,7 @@ public class WeaponsSwitch : MonoBehaviour
             tool_1.SetActive(true);
             tool_2.SetActive(false);
             tool_3.SetActive(false);
-            GameObject oh;
-            oh = tool_2;
-           // oh.GetComponent<Railgun>().Fire;
-            
+            //rg.now = true;
         }
         if (Input.GetKeyDown("b"))
         {
@@ -47,20 +49,23 @@ public class WeaponsSwitch : MonoBehaviour
         tool_1.SetActive(true);
         tool_2.SetActive(false);
         tool_3.SetActive(false);
-       
+        //rg.now = true;
+        //rd.wes = false;
     }
     public void sWeaponsTwo(InputAction.CallbackContext context)
     {
         tool_1.SetActive(false);
         tool_2.SetActive(true);
         tool_3.SetActive(false);
-        
+        //rg.now = false;
+        //rd.wes = false;
     }
     public void sWeaponsThree(InputAction.CallbackContext context)
     {
         tool_1.SetActive(false);
         tool_3.SetActive(true);
         tool_2.SetActive(false);
-
+        //rd.wes = true;
+        //rg.now = false;
     }
 }

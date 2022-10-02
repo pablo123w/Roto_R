@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class RailGun_Bullet : MonoBehaviour
 {
-    private float speed = 10f;
+    private float speed = 50f;
     public float radius = 5.0F;
     public float power = 10.0F;
     public float lift = 30;
+    public float objectStrength;
     //public float speed = 10;
     public bool explode = false;
-
+    //public breakObject bk;
     // Start is called before the first frame update
     void Start()
     {
-
+        //bk = GetComponent<breakObject>();
     }
 
     // Update is called once per frame
@@ -53,12 +54,6 @@ public class RailGun_Bullet : MonoBehaviour
             explode = true;
         }
     }
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "break_wall")
-        {
-            explode = true;
-        }
+    
 
-    }
 }

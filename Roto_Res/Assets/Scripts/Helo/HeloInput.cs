@@ -91,9 +91,18 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""water_gun"",
+                    ""name"": ""Pause"",
                     ""type"": ""Button"",
-                    ""id"": ""cb6e7179-b703-46b8-883e-cbe0631c6301"",
+                    ""id"": ""84405243-57f5-4e43-bc28-7aa02f2e800d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""water"",
+                    ""type"": ""Button"",
+                    ""id"": ""8a063e76-309b-433d-a0ec-df14e4b6b506"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -345,12 +354,23 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b647b35b-4e1d-409d-b7c0-20d4e8005b21"",
-                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""id"": ""9cafee68-4e8f-4849-96a1-e1602c7cfa56"",
+                    ""path"": ""<Gamepad>/start"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""water_gun"",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e3f291bf-11d9-4e5d-9154-bdf2009d64ea"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""water"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -368,7 +388,8 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         m_Player_WeaponSwitch_1 = m_Player.FindAction("WeaponSwitch_1", throwIfNotFound: true);
         m_Player_WeaponSwitch_2 = m_Player.FindAction("WeaponSwitch_2", throwIfNotFound: true);
         m_Player_WeaponSwitch_3 = m_Player.FindAction("WeaponSwitch_3", throwIfNotFound: true);
-        m_Player_water_gun = m_Player.FindAction("water_gun", throwIfNotFound: true);
+        m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
+        m_Player_water = m_Player.FindAction("water", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -435,7 +456,8 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_WeaponSwitch_1;
     private readonly InputAction m_Player_WeaponSwitch_2;
     private readonly InputAction m_Player_WeaponSwitch_3;
-    private readonly InputAction m_Player_water_gun;
+    private readonly InputAction m_Player_Pause;
+    private readonly InputAction m_Player_water;
     public struct PlayerActions
     {
         private @HeloInput m_Wrapper;
@@ -447,7 +469,8 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         public InputAction @WeaponSwitch_1 => m_Wrapper.m_Player_WeaponSwitch_1;
         public InputAction @WeaponSwitch_2 => m_Wrapper.m_Player_WeaponSwitch_2;
         public InputAction @WeaponSwitch_3 => m_Wrapper.m_Player_WeaponSwitch_3;
-        public InputAction @water_gun => m_Wrapper.m_Player_water_gun;
+        public InputAction @Pause => m_Wrapper.m_Player_Pause;
+        public InputAction @water => m_Wrapper.m_Player_water;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -478,9 +501,12 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @WeaponSwitch_3.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_3;
                 @WeaponSwitch_3.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_3;
                 @WeaponSwitch_3.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_3;
-                @water_gun.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWater_gun;
-                @water_gun.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWater_gun;
-                @water_gun.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWater_gun;
+                @Pause.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
+                @Pause.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
+                @Pause.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
+                @water.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWater;
+                @water.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWater;
+                @water.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWater;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -506,9 +532,12 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @WeaponSwitch_3.started += instance.OnWeaponSwitch_3;
                 @WeaponSwitch_3.performed += instance.OnWeaponSwitch_3;
                 @WeaponSwitch_3.canceled += instance.OnWeaponSwitch_3;
-                @water_gun.started += instance.OnWater_gun;
-                @water_gun.performed += instance.OnWater_gun;
-                @water_gun.canceled += instance.OnWater_gun;
+                @Pause.started += instance.OnPause;
+                @Pause.performed += instance.OnPause;
+                @Pause.canceled += instance.OnPause;
+                @water.started += instance.OnWater;
+                @water.performed += instance.OnWater;
+                @water.canceled += instance.OnWater;
             }
         }
     }
@@ -522,6 +551,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         void OnWeaponSwitch_1(InputAction.CallbackContext context);
         void OnWeaponSwitch_2(InputAction.CallbackContext context);
         void OnWeaponSwitch_3(InputAction.CallbackContext context);
-        void OnWater_gun(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
+        void OnWater(InputAction.CallbackContext context);
     }
 }

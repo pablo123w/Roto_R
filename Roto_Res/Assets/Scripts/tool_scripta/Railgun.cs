@@ -5,10 +5,12 @@ using UnityEngine.InputSystem;
 public class Railgun : ToolBase_Guns
 {
     Vector2 targetPosition;
-
+    public bool now;
 
     public GameObject gunPivot;
+   // [SerializeField]
     private GameObject gunEnd;
+    private bool canShoot;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,17 +23,26 @@ public class Railgun : ToolBase_Guns
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("l"))
+        if (canShoot)
         {
-            shooting();
+            if (Input.GetKeyDown("l"))
+            {
+                shooting();
+            }
         }
-
+        
+        
     }
-   
+    
 
-   public void Fire(InputAction.CallbackContext context)
+    public void Fire(InputAction.CallbackContext context)
     {
+        //if (now == true)
+        //{
+        //    shooting();
+        //}
         shooting();
+        
     }
     //public void aim(InputAction.CallbackContext context)
     //{

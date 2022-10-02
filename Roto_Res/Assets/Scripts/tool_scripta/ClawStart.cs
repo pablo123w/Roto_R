@@ -47,7 +47,7 @@ public class ClawStart : MonoBehaviour
             Rrgbd.constraints = RigidbodyConstraints.FreezePositionX;
             Rrgbd.constraints = RigidbodyConstraints.FreezePositionX;
             Rrgbd.constraints = RigidbodyConstraints.FreezePositionX;
-
+               // Rrgbd.constraints = RigidbodyConstraints.None;
             }
         }
         
