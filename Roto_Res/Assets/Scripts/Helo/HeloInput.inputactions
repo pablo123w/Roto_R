@@ -69,18 +69,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Pause",
+                    "name": "water_gun",
                     "type": "Button",
-                    "id": "84405243-57f5-4e43-bc28-7aa02f2e800d",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "water",
-                    "type": "Button",
-                    "id": "8a063e76-309b-433d-a0ec-df14e4b6b506",
+                    "id": "cb6e7179-b703-46b8-883e-cbe0631c6301",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -146,7 +137,7 @@
                 {
                     "name": "Forward Gamepad",
                     "id": "76f0051c-890e-4c5a-889a-e476d5407491",
-                    "path": "2DVector(mode=2)",
+                    "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -332,23 +323,12 @@
                 },
                 {
                     "name": "",
-                    "id": "9cafee68-4e8f-4849-96a1-e1602c7cfa56",
-                    "path": "<Gamepad>/start",
+                    "id": "b647b35b-4e1d-409d-b7c0-20d4e8005b21",
+                    "path": "<Gamepad>/leftTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e3f291bf-11d9-4e5d-9154-bdf2009d64ea",
-                    "path": "<Gamepad>/rightTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "water",
+                    "action": "water_gun",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
