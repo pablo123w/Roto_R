@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13855722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.68, y: 0, z: -0.07}
+  m_LocalPosition: {x: -0.637, y: 0, z: -0.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 386410335}
@@ -143,7 +143,6 @@ MonoBehaviour:
   shotSpeed: 3
   shotSpawn: {fileID: 13855722}
   gunPivot: {fileID: 0}
-  wes: 0
 --- !u!1 &1265253149
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tool_1: {fileID: 7816960333266298234}
-  tool_3: {fileID: 386410331}
+  tool_3: {fileID: 0}
   tool_2: {fileID: 4046451115787377100}
 --- !u!1 &2177986254943634612
 GameObject:
@@ -366,7 +365,6 @@ GameObject:
   - component: {fileID: 2177986254943634571}
   - component: {fileID: 2177986254943634568}
   - component: {fileID: 2177986254943634569}
-  - component: {fileID: 2177986254943634570}
   m_Layer: 0
   m_Name: back
   m_TagString: Untagged
@@ -437,19 +435,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2177986254943634570
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2177986254943634612}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2177986256231219102
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,18 +637,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 386410336}
-        m_TargetAssemblyTypeName: WaterGun, Assembly-CSharp
-        m_MethodName: Fire
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_ActionId: fbb23fb9-1075-428e-ace7-91cc73f70f42
     m_ActionName: Player/Fire[/XInputControllerWindows/rightTrigger]
   - m_PersistentCalls:
@@ -699,6 +672,10 @@ MonoBehaviour:
     m_ActionId: 03e3682e-762c-4a51-b3f8-28e22f441827
     m_ActionName: Player/WeaponSwitch[/Keyboard/1]
   - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4c107bd2-1e2b-4f99-99ef-d0b8b060f8f6
+    m_ActionName: Player/WaterGun_Shoot[/Keyboard/q]
+  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7880035144443827058}
         m_TargetAssemblyTypeName: WeaponsSwitch, Assembly-CSharp
@@ -714,38 +691,6 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: f1693f51-dbac-451b-a048-cdf4720fad00
     m_ActionName: Player/WeapomSwitch_2
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7880035144443827058}
-        m_TargetAssemblyTypeName: WeaponsSwitch, Assembly-CSharp
-        m_MethodName: sWeaponsThree
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 17669e2a-e7dc-43bd-81d0-c552daa00d44
-    m_ActionName: Player/WeaponSwitch_3[/XInputControllerWindows/dpad/down]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: CtrlMenu
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 84405243-57f5-4e43-bc28-7aa02f2e800d
-    m_ActionName: Player/Pause[/XInputControllerWindows/start]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -764,6 +709,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2177986256231219101}
+  lHorizontal: 0
+  lVertical: 0
   maxSpeed: 8
   speed: 2
   stability: 1

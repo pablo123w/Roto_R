@@ -168,7 +168,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Forward Gamepad"",
                     ""id"": ""76f0051c-890e-4c5a-889a-e476d5407491"",
-                    ""path"": ""2DVector"",
+                    ""path"": ""2DVector(mode=2)"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
