@@ -18,10 +18,6 @@ public class goobScript : MonoBehaviour
 	private float greenVal = 0f;
 	private float blueVal = 0f;
 
-	//grabbed
-
-	public bool IsGrabbed;
-
 	void Start()
 	{
 		//remember start goober hp, just in case we change the hp

@@ -7,9 +7,9 @@ public class HeloMovement : MonoBehaviour
 {
     public Rigidbody rb;
 
-    public float lHorizontal;
-	public float lVertical;
-	public float maxSpeed;
+    private float lHorizontal;
+	private float lVertical;
+	public float maxSpeed = 8f;
 	public float speed = 2f;
 
 	//autostabilize after rotating off center
@@ -20,13 +20,11 @@ public class HeloMovement : MonoBehaviour
 	float rotatesmooth = 1f;
 	float tiltAngle = -15f;
 
-	private void Start()
-	{
-		rb = GetComponent<Rigidbody>();
-	}
+
 
 	void Update()
 	{
+		rb = GetComponent<Rigidbody>();
 		rb.AddRelativeForce(lHorizontal * speed, lVertical * speed, 0, ForceMode.Acceleration);
 
 		//rotate helo with movement
@@ -39,16 +37,6 @@ public class HeloMovement : MonoBehaviour
 		if (rb.velocity.magnitude > maxSpeed)
 		{
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
-		}
-
-		if (lVertical == 0f)
-		{
-			StabilizeVertical();
-		}
-
-		if (lHorizontal == 0f)
-		{
-			StabilizeHorizontal();
 		}
 
     }
@@ -68,16 +56,6 @@ public class HeloMovement : MonoBehaviour
 	{
         lHorizontal = context.ReadValue<Vector2>().x;
 		lVertical = context.ReadValue<Vector2>().y;
-	}
-
-	private void StabilizeVertical()
-	{
-		rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y * 0.99f, 0);
-	}
-
-	private void StabilizeHorizontal()
-	{
-		rb.velocity = new Vector3(rb.velocity.x*0.99f, rb.velocity.y, 0);
 	}
 
 }
