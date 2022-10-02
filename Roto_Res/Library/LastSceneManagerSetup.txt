@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/Test Level 2.unity
 =======
 - path: Assets/Scenes/Tutorial.unity
 >>>>>>> Pablo_Verge
+=======
+- path: Assets/Scenes/Level 4.unity
+>>>>>>> Patrick_Yang
   isLoaded: 1
   isActive: 1
   isSubScene: 0
