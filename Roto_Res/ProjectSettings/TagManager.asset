@@ -5,10 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - prop
-  - Goober
-  - Destructible
-  - C_Goober
-  - Pickupable
   layers:
   - Default
   - TransparentFX

@@ -1,1 +1,9 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":0.00699999975040555,"y":6.504000186920166,"z":7.092951559428684e-9},"rotation":{"x":-0.2156376987695694,"y":0.06351256370544434,"z":-0.01406888384371996,"w":-0.9743282198905945},"size":1.6969965696334839,"orthographic":false}
+=======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":13.914999008178711,"y":4.832499980926514,"z":0.0},"rotation":{"x":-0.31932976841926577,"y":0.32021674513816836,"z":-0.11562290042638779,"w":-0.8843794465065002},"size":19.05465316772461,"orthographic":false}
+>>>>>>> Pablo_Verge
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":77.54607391357422,"y":14.768548011779786,"z":-10.836570739746094},"rotation":{"x":0.01724288798868656,"y":-0.017124032601714135,"z":0.0026695886626839639,"w":-0.9999949336051941},"size":21.701255798339845,"orthographic":false}
+>>>>>>> Patrick_Yang
