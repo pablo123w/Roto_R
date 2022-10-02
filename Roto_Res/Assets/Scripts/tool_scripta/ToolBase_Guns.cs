@@ -14,6 +14,6 @@ public class ToolBase_Guns : MonoBehaviour
         GameObject bullet = (GameObject)Instantiate(shot);
         bullet.transform.position = shotSpawn.transform.position;
        // bullet.GetComponent<Rigidbody>().velocity = Vector3.down * shotSpeed;
-        Destroy(bullet, 1f);
+        Destroy(bullet, 5f);
     }
 }

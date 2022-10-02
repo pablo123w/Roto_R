@@ -259,6 +259,17 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""b9375b94-f6d4-414c-9163-c250d6d790e9"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": ""StickDeadzone"",
+                    ""groups"": """",
+                    ""action"": ""Aim"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""abe71c91-6a69-4b26-a96b-8bfb9286a958"",
                     ""path"": ""<Gamepad>/rightTrigger"",
                     ""interactions"": """",

@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/liamCrateRain.unity
-=======
-- path: Assets/Scenes/Tutorial.unity
->>>>>>> e8fa42672688946e070fadab9bae8b621f2f5ecc
+- path: Assets/Scenes/Level 4.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -27,6 +27,7 @@ public class WeaponsSwitch : MonoBehaviour
         if (Input.GetKeyDown("b"))
         {
             tool_1.SetActive(false);
+            tool_3.SetActive(false);
             tool_2.SetActive(true);
             
         }
