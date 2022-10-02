@@ -15,8 +15,6 @@ public class ClawStart2 : MonoBehaviour
 
     private GameObject TempParent;
 
-
-
     private bool CanGrabSomething = false;
 
 	private void Start()
@@ -64,8 +62,16 @@ public class ClawStart2 : MonoBehaviour
             rb.isKinematic = false;
 
             ObjectInQuestion.transform.SetParent(TempParent.transform, true);
-            
-            rb.velocity = (HM.rb.velocity * 3f);
+            Rigidbody rootrb = ObjectInQuestion.transform.root.gameObject.GetComponent<Rigidbody>();
+            if (rootrb != null)
+			{
+                ObjectInQuestion.transform.root.gameObject.GetComponent<Rigidbody>().velocity = HM.rb.velocity;
+            }
+			else
+			{
+                rb.velocity = HM.rb.velocity;
+            }
+
             ObjectInQuestion = null;
             TempParent = null;
 
