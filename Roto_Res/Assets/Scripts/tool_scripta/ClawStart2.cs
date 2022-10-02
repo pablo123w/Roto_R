@@ -5,53 +5,71 @@ using UnityEngine.InputSystem;
 
 public class ClawStart2 : MonoBehaviour
 {
-    public PlayerMain ply;
-    public GameObject hook_point;
-    public GameObject Rope;
-    private GameObject goob;
-    Rigidbody Rrgbd;
-    public Rigidbody[] Rbs;
+    //reference HeloMovement to get inertia for goober
+    private HeloMovement HM;
 
+    public PlayerMain Ply;
+    public GameObject Rope;
+    private GameObject ObjectAbtInQuestion;
+    private GameObject ObjectInQuestion;
+
+    private GameObject TempParent;
+
+
+
+    private bool CanGrabSomething = false;
+
+	private void Start()
+	{
+        HM = Ply.gameObject.GetComponent<HeloMovement>();
+	}
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("C_Goober"))
-        {
-            other.transform.parent = hook_point.transform;
-            Rbs = other.GetComponentsInChildren<Rigidbody>();
-            foreach(Rigidbody rb in Rbs)
-			{
-                rb.freezeRotation = true;
-                rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY;
-                rb.isKinematic = true;
-            }
+        Debug.Log("trigger enter1");
+        if (other.CompareTag("Pickupable"))
+		{
+            CanGrabSomething = true;
+            ObjectAbtInQuestion = other.transform.gameObject;
         }
-
     }
-    public void LetGoOfGoober(InputAction.CallbackContext contex)
+    private void OnTriggerExit(Collider other)
     {
-        goob = GameObject.FindWithTag("C_Goober");
-        if (contex.performed)
+        if (other.CompareTag("Pickupable"))
+		{
+            CanGrabSomething = false;
+            ObjectAbtInQuestion = null;
+        }
+    }
+
+    public void Pickup(InputAction.CallbackContext context)
+    {
+        if (context.started && CanGrabSomething)
         {
-
-            if (goob.transform.IsChildOf(hook_point.gameObject.transform))
-            {
-
-                Rigidbody rg;
-                rg = goob.GetComponent<Rigidbody>();
-                // transform.SetParent(, true);
-                goob.transform.SetParent(null, true);
-                rg.useGravity = true;
-                rg.isKinematic = false;
-                Rrgbd.constraints = RigidbodyConstraints.FreezePositionZ;
-                Rrgbd.constraints = RigidbodyConstraints.FreezePositionX;
-                Rrgbd.constraints = RigidbodyConstraints.FreezePositionX;
-                Rrgbd.constraints = RigidbodyConstraints.FreezePositionX;
-
-            }
+            ObjectInQuestion = ObjectAbtInQuestion;
+            TempParent = ObjectInQuestion.transform.parent.gameObject;
+            ObjectInQuestion.transform.parent = gameObject.transform;
+            Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
+            rb.velocity = Vector3.zero;
+            rb.useGravity = false;
+            rb.isKinematic = true;
         }
 
+        else if (context.canceled)
+        {
+            if (ObjectInQuestion == null) return;
 
+            Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
+            rb.useGravity = true;
+            rb.isKinematic = false;
+
+            ObjectInQuestion.transform.SetParent(TempParent.transform, true);
+            
+            rb.velocity = (HM.rb.velocity * 3f);
+            ObjectInQuestion = null;
+            TempParent = null;
+
+        }
     }
 }
 

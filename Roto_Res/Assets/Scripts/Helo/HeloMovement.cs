@@ -7,9 +7,9 @@ public class HeloMovement : MonoBehaviour
 {
     public Rigidbody rb;
 
-    private float lHorizontal;
-	private float lVertical;
-	public float maxSpeed = 8f;
+    public float lHorizontal;
+	public float lVertical;
+	public float maxSpeed;
 	public float speed = 2f;
 
 	//autostabilize after rotating off center
@@ -20,13 +20,14 @@ public class HeloMovement : MonoBehaviour
 	float rotatesmooth = 1f;
 	float tiltAngle = -15f;
 
-
+	private void Start()
+	{
+		rb = GetComponent<Rigidbody>();
+	}
 
 	void Update()
 	{
-		rb = GetComponent<Rigidbody>();
 		rb.AddRelativeForce(lHorizontal * speed, lVertical * speed, 0, ForceMode.Acceleration);
-		Debug.Log(lHorizontal + " " + lVertical);
 
 		//rotate helo with movement
 		float tiltAroundZ = lHorizontal * tiltAngle;
