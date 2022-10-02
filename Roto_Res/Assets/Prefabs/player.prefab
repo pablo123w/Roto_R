@@ -142,6 +142,7 @@ MonoBehaviour:
   shot: {fileID: 3123090121685514505, guid: 22d958f63ed25e74da2321e8897d8a55, type: 3}
   shotSpeed: 3
   shotSpawn: {fileID: 13855722}
+  gunPivot: {fileID: 0}
 --- !u!1 &1265253149
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,8 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tool_1: {fileID: 7816960333266298234}
-  tool_1_1: {fileID: 0}
-  tool_1_2: {fileID: 0}
+  tool_3: {fileID: 0}
   tool_2: {fileID: 4046451115787377100}
 --- !u!1 &2177986254943634612
 GameObject:
@@ -365,7 +365,6 @@ GameObject:
   - component: {fileID: 2177986254943634571}
   - component: {fileID: 2177986254943634568}
   - component: {fileID: 2177986254943634569}
-  - component: {fileID: 2177986254943634570}
   m_Layer: 0
   m_Name: back
   m_TagString: Untagged
@@ -436,19 +435,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2177986254943634570
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2177986254943634612}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2177986256231219102
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,6 +709,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2177986256231219101}
+  lHorizontal: 0
+  lVertical: 0
   maxSpeed: 8
   speed: 2
   stability: 1

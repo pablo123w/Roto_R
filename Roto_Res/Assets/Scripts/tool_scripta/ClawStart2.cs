@@ -24,7 +24,6 @@ public class ClawStart2 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("trigger enter1");
         if (other.CompareTag("Pickupable"))
 		{
             CanGrabSomething = true;
@@ -45,7 +44,18 @@ public class ClawStart2 : MonoBehaviour
         if (context.started && CanGrabSomething)
         {
             ObjectInQuestion = ObjectAbtInQuestion;
+
+            goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
+            if (GS != null)
+			{
+                GS.IsGrabbed = true;
+			}
+
+            //check if object has parent or not
+            //TempParent = (ObjectInQuestion.transform.parent.gameObject != null) ? ObjectInQuestion.transform.parent.gameObject : ObjectInQuestion;
+
             TempParent = ObjectInQuestion.transform.parent.gameObject;
+
             ObjectInQuestion.transform.parent = gameObject.transform;
             Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
             rb.velocity = Vector3.zero;
@@ -62,6 +72,13 @@ public class ClawStart2 : MonoBehaviour
             rb.isKinematic = false;
 
             ObjectInQuestion.transform.SetParent(TempParent.transform, true);
+
+            goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
+            if (GS != null)
+            {
+                GS.IsGrabbed = false;
+            }
+
             Rigidbody rootrb = ObjectInQuestion.transform.root.gameObject.GetComponent<Rigidbody>();
             if (rootrb != null)
 			{

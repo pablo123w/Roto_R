@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 220411693891070266}
   - component: {fileID: 2766380016997939299}
   - component: {fileID: 714097981973259690}
-  - component: {fileID: 4686621068870853866}
   - component: {fileID: 7988949864410870421}
   m_Layer: 0
   m_Name: debris_smallplate8
@@ -63,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3546d8b99710f444fb22257487594700, type: 2}
+  - {fileID: 2100000, guid: b9cbf1b559d34544b857fc069e63f874, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -114,19 +113,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &4686621068870853866
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207451192514566480}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7988949864410870421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +180,6 @@ GameObject:
   - component: {fileID: 3901651671630541926}
   - component: {fileID: 5921247319902893370}
   - component: {fileID: 2859601863149876201}
-  - component: {fileID: 6157217304812128629}
   - component: {fileID: 1226599466447185692}
   m_Layer: 0
   m_Name: debris_smallplate2
@@ -244,7 +229,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3546d8b99710f444fb22257487594700, type: 2}
+  - {fileID: 2100000, guid: b9cbf1b559d34544b857fc069e63f874, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -295,19 +280,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &6157217304812128629
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791053799089299167}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1226599466447185692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,7 +305,6 @@ GameObject:
   - component: {fileID: 2197368156092158998}
   - component: {fileID: 8000760501322106849}
   - component: {fileID: 6063610458613496675}
-  - component: {fileID: 6804453378665933480}
   m_Layer: 0
   m_Name: debris_plate3
   m_TagString: Pickupable
@@ -433,19 +404,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &6804453378665933480
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2477881630645809809}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2495897766859238497
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +417,6 @@ GameObject:
   - component: {fileID: 8875972802702968120}
   - component: {fileID: 8341925249667707664}
   - component: {fileID: 2641188760209078470}
-  - component: {fileID: 6725786599826695502}
   - component: {fileID: 3591221508366855754}
   m_Layer: 0
   m_Name: debris_smallplate7
@@ -509,7 +466,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3546d8b99710f444fb22257487594700, type: 2}
+  - {fileID: 2100000, guid: b9cbf1b559d34544b857fc069e63f874, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -560,19 +517,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &6725786599826695502
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2495897766859238497}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3591221508366855754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,7 +542,6 @@ GameObject:
   - component: {fileID: 7330807510859357405}
   - component: {fileID: 893336734819355995}
   - component: {fileID: 8113307023711032442}
-  - component: {fileID: 6851632231606644826}
   - component: {fileID: 280575278626553184}
   m_Layer: 0
   m_Name: debris_smallplate6
@@ -648,7 +591,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3546d8b99710f444fb22257487594700, type: 2}
+  - {fileID: 2100000, guid: b9cbf1b559d34544b857fc069e63f874, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -699,19 +642,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &6851632231606644826
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2888399050818397514}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &280575278626553184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,7 +667,6 @@ GameObject:
   - component: {fileID: 1266323322268573337}
   - component: {fileID: 690053533268235020}
   - component: {fileID: 5220349997845483435}
-  - component: {fileID: 958228139107418492}
   m_Layer: 0
   m_Name: debris_plate4
   m_TagString: Pickupable
@@ -837,19 +766,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &958228139107418492
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3149698667704684889}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4019468961846937903
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,7 +779,6 @@ GameObject:
   - component: {fileID: 8984708677587721898}
   - component: {fileID: 1878940267601573799}
   - component: {fileID: 1772804569730928874}
-  - component: {fileID: 838264724623179535}
   - component: {fileID: 572024511252908733}
   m_Layer: 0
   m_Name: debris_smallplate5
@@ -913,7 +828,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3546d8b99710f444fb22257487594700, type: 2}
+  - {fileID: 2100000, guid: b9cbf1b559d34544b857fc069e63f874, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -964,19 +879,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &838264724623179535
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4019468961846937903}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &572024511252908733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,7 +904,6 @@ GameObject:
   - component: {fileID: 3266016020392758744}
   - component: {fileID: 6797664383758638673}
   - component: {fileID: 7234906381776051292}
-  - component: {fileID: 5436808680668611353}
   m_Layer: 0
   m_Name: debris_plate1
   m_TagString: Pickupable
@@ -1102,19 +1003,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &5436808680668611353
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4141293856461523887}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4620121480376304734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +1016,6 @@ GameObject:
   - component: {fileID: 1702112200748518741}
   - component: {fileID: 2988315235833569026}
   - component: {fileID: 2575794778388295027}
-  - component: {fileID: 4661734073876667947}
   - component: {fileID: 1609513282157681244}
   m_Layer: 0
   m_Name: debris_smallplate4
@@ -1178,7 +1065,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3546d8b99710f444fb22257487594700, type: 2}
+  - {fileID: 2100000, guid: b9cbf1b559d34544b857fc069e63f874, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1229,19 +1116,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &4661734073876667947
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4620121480376304734}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1609513282157681244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1267,7 +1141,6 @@ GameObject:
   - component: {fileID: 3914097228303715388}
   - component: {fileID: 1118935324054254090}
   - component: {fileID: 1106981765084374135}
-  - component: {fileID: 6165229324914364542}
   m_Layer: 0
   m_Name: debris_plate2
   m_TagString: Pickupable
@@ -1367,19 +1240,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &6165229324914364542
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7010748258516533999}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8034647294912750471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,7 +1253,6 @@ GameObject:
   - component: {fileID: 9144793056875595205}
   - component: {fileID: 1700922141603447754}
   - component: {fileID: 3470287911230382805}
-  - component: {fileID: 5296004275317597602}
   - component: {fileID: 3591693769505855279}
   m_Layer: 0
   m_Name: debris_smallplate3
@@ -1443,7 +1302,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3546d8b99710f444fb22257487594700, type: 2}
+  - {fileID: 2100000, guid: b9cbf1b559d34544b857fc069e63f874, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1494,19 +1353,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &5296004275317597602
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8034647294912750471}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3591693769505855279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1532,7 +1378,6 @@ GameObject:
   - component: {fileID: 2489682567382979397}
   - component: {fileID: 7576175381310641047}
   - component: {fileID: 4349045258599941931}
-  - component: {fileID: 2377249284138862595}
   - component: {fileID: 7175007193168818754}
   m_Layer: 0
   m_Name: debris_smallplate1
@@ -1582,7 +1427,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3546d8b99710f444fb22257487594700, type: 2}
+  - {fileID: 2100000, guid: b9cbf1b559d34544b857fc069e63f874, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1633,19 +1478,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!65 &2377249284138862595
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8512818872189964217}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7175007193168818754
 MonoBehaviour:
   m_ObjectHideFlags: 0
