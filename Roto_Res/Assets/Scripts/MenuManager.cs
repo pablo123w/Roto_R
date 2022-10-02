@@ -26,7 +26,7 @@ public class MenuManager : MonoBehaviour
             }
         }
     }
-    public void CtrlMenu(InputAction.CallbackContext context)
+    public void ctrlMenu(InputAction.CallbackContext context)
     {
         if (GameIsPaused)
         {

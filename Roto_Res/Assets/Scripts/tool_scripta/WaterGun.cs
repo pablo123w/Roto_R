@@ -8,8 +8,7 @@ public class WaterGun : ToolBase_Guns
     Vector2 targetPosition;
     public GameObject gunPivot;
     private GameObject gunEnd;
-    public bool wes;
-    private bool canShoot;
+    
     public void Start()
     {
        // gunPivot = GameObject.Find("gunPivot");
@@ -22,15 +21,9 @@ public class WaterGun : ToolBase_Guns
             shooting();
         }
     }
-   
     public void Fire(InputAction.CallbackContext context)
     {
         shooting();
-        //if (wes == true)
-        //{
-        //    shooting();
-        //}
-
     }
     //public void Aim(InputAction.CallbackContext context)
     //{

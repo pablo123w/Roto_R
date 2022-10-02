@@ -93,16 +93,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Pause"",
                     ""type"": ""Button"",
-                    ""id"": ""84405243-57f5-4e43-bc28-7aa02f2e800d"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""water"",
-                    ""type"": ""Button"",
-                    ""id"": ""8a063e76-309b-433d-a0ec-df14e4b6b506"",
+                    ""id"": ""cb6e7179-b703-46b8-883e-cbe0631c6301"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -354,23 +345,12 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""9cafee68-4e8f-4849-96a1-e1602c7cfa56"",
+                    ""id"": ""b647b35b-4e1d-409d-b7c0-20d4e8005b21"",
                     ""path"": ""<Gamepad>/start"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Pause"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e3f291bf-11d9-4e5d-9154-bdf2009d64ea"",
-                    ""path"": ""<Gamepad>/rightTrigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""water"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -389,7 +369,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         m_Player_WeaponSwitch_2 = m_Player.FindAction("WeaponSwitch_2", throwIfNotFound: true);
         m_Player_WeaponSwitch_3 = m_Player.FindAction("WeaponSwitch_3", throwIfNotFound: true);
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
-        m_Player_water = m_Player.FindAction("water", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -457,7 +436,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_WeaponSwitch_2;
     private readonly InputAction m_Player_WeaponSwitch_3;
     private readonly InputAction m_Player_Pause;
-    private readonly InputAction m_Player_water;
     public struct PlayerActions
     {
         private @HeloInput m_Wrapper;
@@ -470,7 +448,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         public InputAction @WeaponSwitch_2 => m_Wrapper.m_Player_WeaponSwitch_2;
         public InputAction @WeaponSwitch_3 => m_Wrapper.m_Player_WeaponSwitch_3;
         public InputAction @Pause => m_Wrapper.m_Player_Pause;
-        public InputAction @water => m_Wrapper.m_Player_water;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -504,9 +481,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @Pause.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
                 @Pause.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
                 @Pause.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
-                @water.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWater;
-                @water.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWater;
-                @water.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWater;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -535,9 +509,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @Pause.started += instance.OnPause;
                 @Pause.performed += instance.OnPause;
                 @Pause.canceled += instance.OnPause;
-                @water.started += instance.OnWater;
-                @water.performed += instance.OnWater;
-                @water.canceled += instance.OnWater;
             }
         }
     }
@@ -552,6 +523,5 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         void OnWeaponSwitch_2(InputAction.CallbackContext context);
         void OnWeaponSwitch_3(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
-        void OnWater(InputAction.CallbackContext context);
     }
 }
