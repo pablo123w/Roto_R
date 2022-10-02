@@ -69,7 +69,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "water_gun",
+                    "name": "Pause",
                     "type": "Button",
                     "id": "cb6e7179-b703-46b8-883e-cbe0631c6301",
                     "expectedControlType": "Button",
@@ -137,7 +137,7 @@
                 {
                     "name": "Forward Gamepad",
                     "id": "76f0051c-890e-4c5a-889a-e476d5407491",
-                    "path": "2DVector",
+                    "path": "2DVector(mode=2)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -324,11 +324,11 @@
                 {
                     "name": "",
                     "id": "b647b35b-4e1d-409d-b7c0-20d4e8005b21",
-                    "path": "<Gamepad>/leftTrigger",
+                    "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "water_gun",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

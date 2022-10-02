@@ -485,7 +485,19 @@ MonoBehaviour:
     m_ActionId: 17669e2a-e7dc-43bd-81d0-c552daa00d44
     m_ActionName: Player/WeaponSwitch_3[/XInputControllerWindows/dpad/down]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: cb6e7179-b703-46b8-883e-cbe0631c6301
     m_ActionName: Player/water_gun[/XInputControllerWindows/leftTrigger]
   m_NeverAutoSwitchControlSchemes: 0
