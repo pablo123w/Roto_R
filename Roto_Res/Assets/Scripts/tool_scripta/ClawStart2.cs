@@ -42,34 +42,44 @@ public class ClawStart2 : MonoBehaviour
 
     public void Pickup(InputAction.CallbackContext context)
     {
-        if (context.started && CanGrabSomething)
-        {
-            ObjectInQuestion = ObjectAbtInQuestion;
+        if (context.started)
+		{
+            if (CanGrabSomething)
+            {
+                {
+                    ObjectInQuestion = ObjectAbtInQuestion;
 
-            goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
-            if (GS != null)
-			{
-                GS.IsGrabbed = true;
-			}
+                    goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
+                    if (GS != null)
+                    {
+                        GS.IsGrabbed = true;
+                    }
 
-            //check if object has parent or not
-            //TempParent = (ObjectInQuestion.transform.parent.gameObject != null) ? ObjectInQuestion.transform.parent.gameObject : ObjectInQuestion;
+                    //check if object has parent or not
+                    //TempParent = (ObjectInQuestion.transform.parent.gameObject != null) ? ObjectInQuestion.transform.parent.gameObject : ObjectInQuestion;
 
-            TempParent = ObjectInQuestion.transform.parent.gameObject;
+                    TempParent = ObjectInQuestion.transform.parent.gameObject;
 
-            ObjectInQuestion.transform.parent = gameObject.transform;
+                    ObjectInQuestion.transform.parent = gameObject.transform;
 
+                    //animate
+                    Animator.SetBool("isClosed", true);
+
+                    Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
+                    rb.velocity = Vector3.zero;
+                    rb.useGravity = false;
+                    rb.isKinematic = true;
+                }
+            }
             //animate
             Animator.SetBool("isClosed", true);
-
-            Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
-            rb.velocity = Vector3.zero;
-            rb.useGravity = false;
-            rb.isKinematic = true;
         }
 
         else if (context.canceled)
         {
+            //animate
+            Animator.SetBool("isClosed", false);
+
             if (ObjectInQuestion == null) return;
 
             Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
@@ -77,9 +87,6 @@ public class ClawStart2 : MonoBehaviour
             rb.isKinematic = false;
 
             ObjectInQuestion.transform.SetParent(TempParent.transform, true);
-
-            //animate
-            Animator.SetBool("isClosed", false);
 
             goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
             if (GS != null)

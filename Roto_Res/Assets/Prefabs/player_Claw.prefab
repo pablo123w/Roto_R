@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2516438630315384528}
   - component: {fileID: 2516438630315384531}
   - component: {fileID: 2516438630315384530}
-  - component: {fileID: 2516438631974574883}
   - component: {fileID: 2516438631974574880}
   m_Layer: 0
   m_Name: clw
@@ -83,19 +82,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &2516438631974574883
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2516438630315384559}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.8052604
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2516438631974574880
 MonoBehaviour:
   m_ObjectHideFlags: 0
