@@ -12,6 +12,7 @@ public class ClawStart2 : MonoBehaviour
     public GameObject Rope;
     private GameObject ObjectAbtInQuestion;
     private GameObject ObjectInQuestion;
+    public Animator Animator;
 
     private GameObject TempParent;
 
@@ -57,6 +58,10 @@ public class ClawStart2 : MonoBehaviour
             TempParent = ObjectInQuestion.transform.parent.gameObject;
 
             ObjectInQuestion.transform.parent = gameObject.transform;
+
+            //animate
+            Animator.SetBool("isClosed", true);
+
             Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
             rb.velocity = Vector3.zero;
             rb.useGravity = false;
@@ -72,6 +77,9 @@ public class ClawStart2 : MonoBehaviour
             rb.isKinematic = false;
 
             ObjectInQuestion.transform.SetParent(TempParent.transform, true);
+
+            //animate
+            Animator.SetBool("isClosed", false);
 
             goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
             if (GS != null)
