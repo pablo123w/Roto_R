@@ -89,4 +89,9 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(level);
     }
+
+    public void NextLevelButton()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }

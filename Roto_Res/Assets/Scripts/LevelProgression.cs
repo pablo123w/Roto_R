@@ -11,6 +11,8 @@ public class LevelProgression : MonoBehaviour
     public Image GooberConstraintImage;
     public Image GooberSavedImage;
 
+    public GameObject NextLevelButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,5 +37,15 @@ public class LevelProgression : MonoBehaviour
             gooberConstraint -= 0.1f;
             GooberConstraintImage.fillAmount = gooberConstraint;
         }
+
+        if (gooberSaved >= 0.5f)
+        {
+            ButtonActive();
+        }
+    }
+
+    public void ButtonActive()
+    {
+            NextLevelButton.SetActive(true);
     }
 }
