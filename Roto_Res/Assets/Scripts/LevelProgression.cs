@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class LevelProgression : MonoBehaviour
 {
     public float gooberConstraint = 1;
-    public float gooberSaved = 0;
+    //public float gooberSaved = 0;
+    //private int GoobCount = 0;
 
     public float ScorePercent = 0;
     //public int totalGoobers;
@@ -16,7 +17,7 @@ public class LevelProgression : MonoBehaviour
 
     public GameObject NextLevelButton;
     public List <GameObject>TotalGoobers = new List<GameObject>();
-    float GoobCount;
+    float GoobCount = 0.0f;
     float TotalGoobHP;
 
     // Start is called before the first frame update
@@ -28,7 +29,7 @@ public class LevelProgression : MonoBehaviour
         Debug.Log(GoobCount + " Goober(s) are in the scene.");
         TotalGoobHP = GoobCount * 100;
         Debug.Log(TotalGoobers);
-        if (TotalGoobers == null)
+        if (TotalGoobers.count == 0)
         {
             TotalGoobers.Add(GameObject.FindGameObjectWithTag("C_Goober"));
         }
@@ -74,11 +75,11 @@ public class LevelProgression : MonoBehaviour
     }
     
     // Selecting this button changes the current scene to the next one.
-    public void ButtonActive()
-    {
-        // Button Active function called
-            NextLevelButton.SetActive(true);
-    }
+    //public void ButtonActive()
+    //{
+    //    // Button Active function called
+    //        NextLevelButton.SetActive(true);
+    //}
 
     //void OnCollisionEnter(Collision collision)
     //{

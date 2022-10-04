@@ -8612,6 +8612,7 @@ MonoBehaviour:
   GooberConstraintImage: {fileID: 1440309152}
   GooberSavedImage: {fileID: 39870992}
   NextLevelButton: {fileID: 1341548940}
+  TotalGoobers: []
 --- !u!1 &1118247690
 GameObject:
   m_ObjectHideFlags: 0
@@ -9213,7 +9214,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1089122916}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: NextLevelButton
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
