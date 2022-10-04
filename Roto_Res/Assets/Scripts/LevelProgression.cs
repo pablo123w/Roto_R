@@ -7,20 +7,31 @@ public class LevelProgression : MonoBehaviour
 {
     public float gooberConstraint = 1;
     public float gooberSaved = 0;
+
+    public float ScorePercent = 0;
     //public int totalGoobers;
 
     public Image GooberConstraintImage;
     public Image GooberSavedImage;
 
     public GameObject NextLevelButton;
+    public List <GameObject>TotalGoobers = new List<GameObject>();
+    float GoobCount;
+    float TotalGoobHP;
 
     // Start is called before the first frame update
     void Start()
     {
         // Tracks the amount of the goobers in the scene.
-        GameObject[]totalGoobers = GameObject.FindGameObjectsWithTag("Goober");
-        int gooberCount = totalGoobers.Length;
-        Debug.Log(gooberCount + " Goober(s) are in the scene.");
+        TotalGoobers.Add(GameObject.FindGameObjectWithTag("C_Goober"));
+        GoobCount = TotalGoobers.Count;
+        Debug.Log(GoobCount + " Goober(s) are in the scene.");
+        TotalGoobHP = GoobCount * 100;
+        Debug.Log(TotalGoobers);
+        if (TotalGoobers == null)
+        {
+            TotalGoobers.Add(GameObject.FindGameObjectWithTag("C_Goober"));
+        }
     }
 
     // Update is called once per frame
@@ -33,6 +44,8 @@ public class LevelProgression : MonoBehaviour
             gooberSaved += 0.1f;
             GooberSavedImage.fillAmount = gooberSaved;
         }
+        
+        
 
         // This shrinks the goober constraint acting as if goobers lost blood (health)
         if (Input.GetKeyDown(KeyCode.N))
@@ -42,8 +55,9 @@ public class LevelProgression : MonoBehaviour
             GooberConstraintImage.fillAmount = gooberConstraint;
         }
         // If 50% or more goobers have been saved then the next level button is revealed.
-        if (gooberSaved >= 0.5f)
+        if (gooberSaved >= ScorePercent)
         {
+            // 50% Goobers saved, Button Active x1
             ButtonActive();
         }
 
@@ -62,15 +76,30 @@ public class LevelProgression : MonoBehaviour
     // Selecting this button changes the current scene to the next one.
     public void ButtonActive()
     {
+        // Button Active function called
             NextLevelButton.SetActive(true);
     }
 
-    void OnCollisionEnter(Collision collision)
+    //void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.tag == "Goober") 
+    //    {
+    //        gooberSaved += 0.1f;
+    //        Debug.Log("A Goober was hit!");
+    //    }
+    //}
+
+    public void AddGoober(float collectedhp)
     {
-        if (collision.gameObject.tag == "Goober")
+        Debug.Log("add goober");
+        ScorePercent = collectedhp / TotalGoobHP * 100;
+        Debug.Log(ScorePercent + "%");
+
+        if (gooberSaved <= ScorePercent)
         {
-            gooberSaved += 0.1f;
-            Debug.Log("A Goober was hit!");
+            Debug.Log("Score increased.");
+
+            GooberSavedImage.fillAmount = ScorePercent;
         }
     }
 }

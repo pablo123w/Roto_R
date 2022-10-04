@@ -8,8 +8,13 @@ public class Goobtube : MonoBehaviour
     public float Score;
     public TMP_Text score_text;
     private float collectedhp;
+
+    public GameObject Canvas;
+    LevelProgression LP;
+    
     void Start()
     {
+        LP = Canvas.GetComponent<LevelProgression>();
         Score = 0;
         UpdateScoreText();
         
@@ -22,11 +27,11 @@ public class Goobtube : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
 	{
-		if(other.CompareTag("Goober"))
+		if(other.CompareTag("C_Goober"))
 		{
-            Debug.Log("Goober picked up");
+            Debug.Log("tube recognize goob");
             collectedhp = other.transform.root.GetComponent<goobScript>().goobhp;
-            Score = Score + collectedhp;
+            LP.AddGoober(collectedhp);
             
             Debug.Log(collectedhp);
             

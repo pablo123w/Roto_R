@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class MenuManager : MonoBehaviour
 {
@@ -25,7 +26,17 @@ public class MenuManager : MonoBehaviour
             }
         }
     }
-
+    public void ctrlMenu(InputAction.CallbackContext context)
+    {
+        if (GameIsPaused)
+        {
+            Resume();
+        }
+        else
+        {
+            Pause();
+        }
+    }
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -88,10 +99,5 @@ public class MenuManager : MonoBehaviour
     public void LevelSelect()
     {
         SceneManager.LoadScene(level);
-    }
-
-    public void NextLevelButton()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

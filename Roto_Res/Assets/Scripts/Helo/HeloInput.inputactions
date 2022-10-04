@@ -42,7 +42,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "WeaponSwitch",
+                    "name": "WeaponSwitch_1",
                     "type": "Value",
                     "id": "03e3682e-762c-4a51-b3f8-28e22f441827",
                     "expectedControlType": "",
@@ -51,27 +51,27 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "WaterGun_Shoot",
+                    "name": "WeaponSwitch_2",
                     "type": "Button",
-                    "id": "4c107bd2-1e2b-4f99-99ef-d0b8b060f8f6",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "length",
-                    "type": "Button",
-                    "id": "546428a5-3d0e-4651-abc2-6e4c9e25acd8",
+                    "id": "f1693f51-dbac-451b-a048-cdf4720fad00",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "shrink",
+                    "name": "WeaponSwitch_3",
                     "type": "Button",
-                    "id": "3f48314f-7f6c-4d6c-b167-6e54e2f0b24a",
+                    "id": "17669e2a-e7dc-43bd-81d0-c552daa00d44",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "pause",
+                    "type": "Button",
+                    "id": "cb6e7179-b703-46b8-883e-cbe0631c6301",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -137,7 +137,7 @@
                 {
                     "name": "Forward Gamepad",
                     "id": "76f0051c-890e-4c5a-889a-e476d5407491",
-                    "path": "2DVector",
+                    "path": "2DVector(mode=2)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -246,6 +246,17 @@
                 },
                 {
                     "name": "",
+                    "id": "b9375b94-f6d4-414c-9163-c250d6d790e9",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "StickDeadzone",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "abe71c91-6a69-4b26-a96b-8bfb9286a958",
                     "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
@@ -269,7 +280,7 @@
                 {
                     "name": "",
                     "id": "0c546e72-d306-41a9-b7e2-13b43b1ff7a5",
-                    "path": "<Gamepad>/buttonEast",
+                    "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -279,67 +290,45 @@
                 },
                 {
                     "name": "",
-                    "id": "86c18ec5-4aa7-48aa-9cae-b3df82cab558",
-                    "path": "<Keyboard>/1",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "WeaponSwitch",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "f0725f62-b7c3-4da2-a61c-ae3e62040442",
+                    "id": "72ac2d6d-5d63-4a00-ba2e-5bd07f55f6b9",
                     "path": "<Gamepad>/dpad/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "WeaponSwitch",
+                    "action": "WeaponSwitch_1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "d10db44c-daee-4dd4-b3af-7b5d029b3b50",
-                    "path": "<Keyboard>/q",
+                    "id": "a454fa05-deb0-4da5-b676-0a4ec056d1f4",
+                    "path": "<Gamepad>/dpad/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "WaterGun_Shoot",
+                    "action": "WeaponSwitch_2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "e427c66a-7009-4f07-8bf4-172fe7d95caf",
-                    "path": "<Gamepad>/leftTrigger",
+                    "id": "dc407615-f6ed-4624-b007-77625b3129ba",
+                    "path": "<Gamepad>/dpad/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "WaterGun_Shoot",
+                    "action": "WeaponSwitch_3",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "1057fa06-6a0f-4dfc-bd71-eb2e6e8eda56",
-                    "path": "<Keyboard>/space",
+                    "id": "b647b35b-4e1d-409d-b7c0-20d4e8005b21",
+                    "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "length",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2cacb54c-d95c-40ac-93d6-5766c1c46764",
-                    "path": "<Keyboard>/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "shrink",
+                    "action": "pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

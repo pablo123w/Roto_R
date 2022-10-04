@@ -16,12 +16,13 @@ public class ClawStart : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Goober"))
+        if (other.CompareTag("C_Goober"))
         {
-           other.transform.parent = hook_point.transform;
-            Rrgbd = Rope.GetComponent<Rigidbody>();
+            other.transform.parent = hook_point.transform;
+            Rrgbd = other.GetComponent<Rigidbody>();
             //Rrgbd.freezeRotation = true;
             Rrgbd.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY;
+            Rrgbd.isKinematic = true;
 
             //Destroy(other.gameObject);
         }
@@ -29,7 +30,7 @@ public class ClawStart : MonoBehaviour
     }
     public void LetGoOfGoober(InputAction.CallbackContext contex)
     {
-        goob = GameObject.FindWithTag("Goober");
+        goob = GameObject.FindWithTag("C_Goober");
         if (contex.performed)
         {
            

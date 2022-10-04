@@ -38,7 +38,7 @@ public class RailGun_Bullet : MonoBehaviour
     }
     public void Move()
     {
-        Vector3 bulletSpeed = Vector3.left * speed;
+        Vector3 bulletSpeed = Vector3.right * speed;
         transform.Translate(bulletSpeed * Time.deltaTime);
     }
     public void OnTriggerEnter(Collider other)

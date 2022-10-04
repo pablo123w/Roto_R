@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 1710406159814820286}
   - component: {fileID: 3483642196844344692}
   - component: {fileID: 2853584239194368461}
+  - component: {fileID: 4337171533790699867}
   m_Layer: 0
   m_Name: goobtube_proto
   m_TagString: Untagged
@@ -156,3 +157,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4845758018164119327, guid: 2afd0c005ed7ba24b8641218e64b9c09, type: 3}
+--- !u!114 &4337171533790699867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123420540184319137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d67cd4cd1307f449cd3371ddc55d3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 0
+  score_text: {fileID: 0}
