@@ -13,6 +13,10 @@ public class ClawStart2 : MonoBehaviour
     private GameObject ObjectAbtInQuestion;
     private GameObject ObjectInQuestion;
     public Animator Animator;
+    public Rigidbody ClawRigidbody;
+    public GameObject Claw;
+    private bool HadParent;
+    private bool IsGoober = false;
 
     private GameObject TempParent;
 
@@ -30,10 +34,20 @@ public class ClawStart2 : MonoBehaviour
             CanGrabSomething = true;
             ObjectAbtInQuestion = other.transform.gameObject;
         }
+        if (other.CompareTag("C_Goober"))
+		{
+            CanGrabSomething = true;
+            ObjectAbtInQuestion = other.transform.gameObject;
+        }
+        if (other.CompareTag("Destructible"))
+        {
+            CanGrabSomething = true;
+            ObjectAbtInQuestion = other.transform.gameObject;
+        }
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Pickupable"))
+        if (other.CompareTag("Pickupable") || other.CompareTag("C_Goober"))
 		{
             CanGrabSomething = false;
             ObjectAbtInQuestion = null;
@@ -49,26 +63,57 @@ public class ClawStart2 : MonoBehaviour
                 {
                     ObjectInQuestion = ObjectAbtInQuestion;
 
+					if (ObjectInQuestion.transform.root.CompareTag("C_Goober"))
+					{
+                        Debug.Log("Its a goober");
+                        IsGoober = true;
+					}
+
                     goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
                     if (GS != null)
                     {
-                        GS.IsGrabbed = true;
+                        GS.TellGrabbed();
                     }
 
                     //check if object has parent or not
-                    //TempParent = (ObjectInQuestion.transform.parent.gameObject != null) ? ObjectInQuestion.transform.parent.gameObject : ObjectInQuestion;
-
-                    TempParent = ObjectInQuestion.transform.parent.gameObject;
+                    if(ObjectInQuestion.transform.parent == null)
+                    {
+                        TempParent = ObjectInQuestion.transform.gameObject;
+                        HadParent = false;
+                    }
+					else
+					{
+                        TempParent = ObjectInQuestion.transform.parent.gameObject;
+                        HadParent = true;
+                    }
 
                     ObjectInQuestion.transform.parent = gameObject.transform;
 
-                    //animate
-                    Animator.SetBool("isClosed", true);
+					//add joint to picked up object
+					if (ObjectInQuestion.GetComponent<Rigidbody>() != null && IsGoober == false)
+					{
+						ObjectInQuestion.AddComponent<ConfigurableJoint>();
+						ObjectInQuestion.GetComponent<ConfigurableJoint>().connectedBody = ClawRigidbody;
+                        
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().anchor = Vector3.zero;
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().connectedAnchor = Vector3.zero;
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().xMotion = ConfigurableJointMotion.Locked;
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().yMotion = ConfigurableJointMotion.Locked;
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().zMotion = ConfigurableJointMotion.Locked;
+                        //ObjectInQuestion.GetComponent<CharacterJoint>().connectedAnchor = ClawRigidbody.transform.position;
+                        //ObjectInQuestion.GetComponent<CharacterJoint>().anchor = ClawRigidbody.transform.localPosition;
+                    }
+
+					//animate
+					Animator.SetBool("isClosed", true);
 
                     Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
                     rb.velocity = Vector3.zero;
-                    rb.useGravity = false;
-                    rb.isKinematic = true;
+                    rb.useGravity = true;
+					if (IsGoober)
+					{
+                        rb.isKinematic = true;
+                    }
                 }
             }
             //animate
@@ -83,10 +128,24 @@ public class ClawStart2 : MonoBehaviour
             if (ObjectInQuestion == null) return;
 
             Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
+
+			if (HadParent)
+			{
+                ObjectInQuestion.transform.SetParent(TempParent.transform, true);
+            }
+			else
+			{
+                ObjectInQuestion.transform.parent = null;
+			}
+            HadParent = false;
+
+			//delete joint
+			if (ObjectInQuestion.GetComponent<ConfigurableJoint>() != null && IsGoober == false)
+			{
+				Destroy(ObjectInQuestion.GetComponent<ConfigurableJoint>());
+			}
             rb.useGravity = true;
             rb.isKinematic = false;
-
-            ObjectInQuestion.transform.SetParent(TempParent.transform, true);
 
             goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
             if (GS != null)
@@ -106,6 +165,7 @@ public class ClawStart2 : MonoBehaviour
 
             ObjectInQuestion = null;
             TempParent = null;
+            IsGoober = false;
 
         }
     }

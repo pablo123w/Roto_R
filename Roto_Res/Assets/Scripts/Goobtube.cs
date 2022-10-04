@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Goobtube : MonoBehaviour
+public class GoobTube : MonoBehaviour
 {
     public float Score;
     public TMP_Text score_text;
@@ -11,13 +11,13 @@ public class Goobtube : MonoBehaviour
 
     public GameObject Canvas;
     LevelProgression LP;
-    
+
     void Start()
     {
         LP = Canvas.GetComponent<LevelProgression>();
         Score = 0;
         UpdateScoreText();
-        
+
     }
 
     public void UpdateScoreText()
@@ -26,17 +26,18 @@ public class Goobtube : MonoBehaviour
     }
 
     public void OnTriggerEnter(Collider other)
-	{
-		if(other.CompareTag("C_Goober"))
-		{
-            Debug.Log("tube recognize goob");
-            collectedhp = other.transform.root.GetComponent<goobScript>().goobhp;
-            LP.AddGoober(collectedhp);
-            
-            Debug.Log(collectedhp);
-            
-            UpdateScoreText();
+    {
+        if (other.CompareTag("C_Goober"))
+        {
+            collectedhp = other.GetComponent<goobScript>().goobhp;
+            if (collectedhp > 0)
+			{
+
+                LP.AddGoober(collectedhp);
+
+                UpdateScoreText();
+            }
             Destroy(other.transform.root.gameObject);
-		}
-	}
+        }
+    }
 }

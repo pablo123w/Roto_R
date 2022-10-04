@@ -98,7 +98,10 @@ public class MenuManager : MonoBehaviour
 
     public void LevelSelect()
     {
-        //SceneManager.LoadScene(level);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(level);
+    }
+    public void FeedBack()
+    {
+        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSebL5gfMcS_s5DmZbxqfGcQk7N9TXSJQACuKGbqyjc022730Q/viewform?usp=sf_link");
     }
 }

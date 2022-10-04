@@ -6,18 +6,22 @@ public class Railgun : ToolBase_Guns
 {
     Vector2 targetPosition;
 
-    private Vector3 maxAngle = Vector3.one * 2;
+    private Vector3 maxAngle = Vector3.one * 1;
     public GameObject gunPivot;
+    public GameObject player;
     private GameObject gunEnd;
     public float rand;
     public float amp;
+    public float freq;
+    public float _shakeTimer;
+    public float shakeLast;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         gunPivot = GameObject.Find("gunPivot");
         gunEnd = GameObject.Find("gunEnd");
-        
-
+        _shakeTimer = shakeLast;
+        rand = Random.value;
     }
 
     // Update is called once per frame
@@ -26,18 +30,33 @@ public class Railgun : ToolBase_Guns
         if (Input.GetKeyDown("l"))
         {
             shooting();
+            KickBack();
         }
 
     }
    
     public void KickBack()
     {
-        transform.localRotation = Quaternion.Euler(new Vector3(maxAngle.x * (Mathf.PerlinNoise(rand + 3, Time.time * amp) * 2 - 1), 0, 0));
+        if (_shakeTimer > 0)
+        {
+            
+          player.transform.localRotation = Quaternion.Euler(new Vector3(0,0, maxAngle.z * (Mathf.PerlinNoise(rand + 3, Time.time * amp) * freq)));
+
+            
+            _shakeTimer -= Time.deltaTime;
+        }
+        else
+        {
+            _shakeTimer = 0f;
+
+        }
     }
+
 
    public void Fire(InputAction.CallbackContext context)
     {
         shooting();
+        KickBack();
     }
     //public void aim(InputAction.CallbackContext context)
     //{

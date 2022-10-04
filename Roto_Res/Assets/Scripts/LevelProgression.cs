@@ -5,102 +5,52 @@ using UnityEngine.UI;
 
 public class LevelProgression : MonoBehaviour
 {
-    public float gooberConstraint = 1;
-    //public float gooberSaved = 0;
-    //private int GoobCount = 0;
+    public float GooberConstraint = 1;
 
+    public float Score = 0;
     public float ScorePercent = 0;
-    //public int totalGoobers;
 
     public Image GooberConstraintImage;
     public Image GooberSavedImage;
 
     public GameObject NextLevelButton;
-    public List <GameObject>TotalGoobers = new List<GameObject>();
+
+    private GameObject[] TotalGoobers;
     float GoobCount = 0.0f;
     float TotalGoobHP;
+    float TotalGoobHPMax;
 
-    // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
+        GooberConstraintImage.fillAmount = GooberConstraint;
+
         // Tracks the amount of the goobers in the scene.
-        TotalGoobers.Add(GameObject.FindGameObjectWithTag("C_Goober"));
-        GoobCount = TotalGoobers.Count;
-        Debug.Log(GoobCount + " Goober(s) are in the scene.");
-        TotalGoobHP = GoobCount * 100;
-        Debug.Log(TotalGoobers);
-        if (TotalGoobers.count == 0)
-        {
-            TotalGoobers.Add(GameObject.FindGameObjectWithTag("C_Goober"));
-        }
+        TotalGoobers = GameObject.FindGameObjectsWithTag("C_Goober");
+
+        GoobCount = TotalGoobers.Length;
+        Debug.Log("goobcount is " + GoobCount);
+
+        TotalGoobHPMax = GoobCount * 100;
+        Debug.Log("total hp max: " + TotalGoobHPMax);
+        TotalGoobHP = TotalGoobHPMax;
+        Debug.Log("total goob HP at start: " + TotalGoobHP);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoseBlood(float impact)
     {
-        // This adds to the yellow bar (Goobers Saved) and stops it at the goober constraint (Grey Bar)
-        if (Input.GetKeyDown(KeyCode.Space) && gooberSaved <= gooberConstraint)
-        {
-            Debug.Log("Space was pressed.");
-            gooberSaved += 0.1f;
-            GooberSavedImage.fillAmount = gooberSaved;
-        }
-        
-        
+        TotalGoobHP -= impact;
+        Debug.Log("total goob hp after losing blood: " + TotalGoobHP);
+        GooberConstraint = TotalGoobHP / TotalGoobHPMax;
+        Debug.Log("goober constraint: " + GooberConstraint);
 
-        // This shrinks the goober constraint acting as if goobers lost blood (health)
-        if (Input.GetKeyDown(KeyCode.N))
-        {
-            Debug.Log("N was pressed. Goober Constraint should shrink.");
-            gooberConstraint -= 0.1f;
-            GooberConstraintImage.fillAmount = gooberConstraint;
-        }
-        // If 50% or more goobers have been saved then the next level button is revealed.
-        if (gooberSaved >= ScorePercent)
-        {
-            // 50% Goobers saved, Button Active x1
-            ButtonActive();
-        }
-
-        ///////////////////////////////////////////////////////Testing with GOOBERS//////////////////////////////////////////////////////
-
-        
-        
-
-        /*if (gooberSaved >= totalGoobers)
-        {
-            ButtonActive();
-        }
-        */
+        GooberConstraintImage.fillAmount = GooberConstraint;
     }
-    
-    // Selecting this button changes the current scene to the next one.
-    //public void ButtonActive()
-    //{
-    //    // Button Active function called
-    //        NextLevelButton.SetActive(true);
-    //}
-
-    //void OnCollisionEnter(Collision collision)
-    //{
-    //    if (collision.gameObject.tag == "Goober") 
-    //    {
-    //        gooberSaved += 0.1f;
-    //        Debug.Log("A Goober was hit!");
-    //    }
-    //}
-
     public void AddGoober(float collectedhp)
     {
-        Debug.Log("add goober");
-        ScorePercent = collectedhp / TotalGoobHP * 100;
-        Debug.Log(ScorePercent + "%");
-
-        if (gooberSaved <= ScorePercent)
-        {
-            Debug.Log("Score increased.");
-
-            GooberSavedImage.fillAmount = ScorePercent;
-        }
-    }
+        Score += collectedhp;
+        Debug.Log("score is: " + Score);
+        ScorePercent = (Score/100)/((TotalGoobHPMax)/100);
+        Debug.Log("added " + collectedhp);
+        GooberSavedImage.fillAmount = ScorePercent;
+	}
 }
