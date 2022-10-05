@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 94
+  controlID: 126
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 16
+  controlID: 127
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 17
+  controlID: 128
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,22 +343,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Building Strut Prefabs
+    - Assets/Prefabs/Goobers
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Building Strut Prefabs
+  - Assets/Prefabs/Goobers
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Users\jonmi\Downloads\Documents\GitHub\Roto_R\Roto_Res
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 228d0000
-    m_LastClickedID: 36130
-    m_ExpandedIDs: 00000000307400003c74000000ca9a3b
+    m_SelectedIDs: 00550000
+    m_LastClickedID: 21760
+    m_ExpandedIDs: 00000000e2540000ea540000ee5400000455000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000030740000
+    m_ExpandedIDs: 00000000e2540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,7 +509,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c870ffff6274ffffa875ffff7e81ffffc482ffff2a90ffff7091ffffb692ffffde9effffa0a2ffff86afffffd2c0ffffc0c7ffff98cdffff28ddffff
+      m_ExpandedIDs: dc60ffff1e94fffffe9dffff94a7ffffeaa9ffff90dbffff34ddffff20deffff1ae0ffff00f5ffff6afbffff0e6e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.3352337, y: -0.02714312, z: 11.568245}
+    m_Target: {x: 12.384842, y: 17.342766, z: -23.520248}
     speed: 2
-    m_Value: {x: -6.3352337, y: -0.02714312, z: 11.568245}
+    m_Value: {x: 12.463996, y: 16.60119, z: -23.551668}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -618,13 +618,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.24916361, y: -0.06185362, z: 0.015900943, w: -0.966473}
+    m_Target: {x: -0.078216225, y: 0.024518589, z: -0.0019911951, w: -0.9967784}
     speed: 2
-    m_Value: {x: -0.24768499, y: -0.061870262, z: 0.015806274, w: -0.9667339}
+    m_Value: {x: -0.07970269, y: 0.023017216, z: -0.0019081448, w: -0.99655104}
   m_Size:
-    m_Target: 57.525772
+    m_Target: 29.924957
     speed: 2
-    m_Value: 57.525772
+    m_Value: 31.335033
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -759,9 +759,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 514.4
-    width: 1223.8
-    height: 269
+    y: 861
+    width: 2041
+    height: 498
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
 MonoBehaviour:
